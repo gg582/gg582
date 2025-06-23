@@ -90,16 +90,17 @@ So, I attach the actual award.
 
 ![Awards](./award.png)
 ![IndustrialEngineer](./industrial_engineer.png)
-This needs some comments. I took 'Industrial Engineer' examination 's first screening, as I were not an undergradute student.
+This is a Korean certificates, for informational engineering. This is not 'high-leveled' certificates. But this needs some comments. I took 'Industrial Engineer' examination 's first screening, as I were not an undergradute student. I weas only 3rd grade.
+Engineer certificates does not allow people who graduated fourth grade of the college. So, students who are not undergraduate cannot take this. Also, colleges with 2 years courses cannot take this. In my opinion it is a kind of discrimiation.
 And I took a final test in 2025. If I can get enough time to get 'Engineer' examination, which is one step higher than 'Industrial Engineer', I have courage to take.
 First screening test's pass rate was 51%. Final test's pass wate was 49.64%, which is quite easier than 2023-2024's test.
+Test checks skills about MVC structure, and Development process, and a bit of SQL/Java/Unix.
 
 ---
 
 ## 📫 Contact
 
-- Email: [gg582@naver.com](mailto:gg582@naver.com) / [gzblues61@gmail.com](mailto:gzblues61@gmail.com)
-
+- Email: [gg582@naver.com](mailto:gg582@naver.com)
 ---
 
 
