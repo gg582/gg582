@@ -102,7 +102,7 @@ Also, colleges with 2 years courses cannot take this. In my opinion it is a kind
 And I took a final test in 2025. If I can get enough time to get 'Engineer' examination,
 
 which is one step higher than 'Industrial Engineer', I have courage to take.
-First screening test's pass rate was 51%. Final test's pass wate was 49.64%, which is quite easier than 2023-2024's test.
+First screening test's pass rate was 51%. Final test's pass wate was 49.64%, which is quite easier than the 2023-2024's test.
 
 Test checks skills about MVC structure, and Development process, and a bit of SQL/Java/Unix.
 
