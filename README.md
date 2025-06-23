@@ -46,7 +46,7 @@ Currently learning Java and C# to expand my backend capabilities.
 - **Tech Stack**: C/C++, Bash
 - **Highlight**: Enhances code readability with keywords like `Then` for `{` and `Is` for `=`.\
 
-```dsl
+```cpp
 ImportCode iostream
 ImportCode map
 ImportCode string
