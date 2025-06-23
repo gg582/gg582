@@ -121,7 +121,7 @@ SPK, François Couperin, Coil, Sidiki Diabaté, Korean traditional music, Chines
 
 Japanese traditional music from the Edo period, Iannis Xenakis(Greek: Ιάννης Ξενάκης), Blind Willie Mctell, Johnny Winter, etc.
 
-As an oldies pick, How about Led Zeppelin, and Chuck Berry? 😉
+As an oldies pick, how about Led Zeppelin and Chuck Berry? 😉
 
 ---
 
