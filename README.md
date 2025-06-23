@@ -94,15 +94,17 @@ This is a Korean certificates, for informational engineering.
 
 This is not 'high-leveled' certificates. But this needs some comments. 
 
-I took 'Industrial Engineer' examination 's first screening, as I were not an undergradute student. I was only 3rd grade.
-Engineer certificates does not allow people who graduated fourth grade of the college. So, students who are not undergraduate cannot take this.
+I took the Industrial Engineer examination's first screening while I was not yet an undergraduate student.
+
+Engineer certificates do not allow people who have graduated from a four-year college.
 
 Also, colleges with 2 years courses cannot take this. In my opinion it is a kind of system limitation.
 
 And I took a final test in 2025. If I can get enough time to get 'Engineer' examination,
 
 which is one step higher than 'Industrial Engineer', I have courage to take.
-First screening test's pass rate was 51%. Final test's pass wate was 49.64%, which is quite easier than the 2023-2024's test.
+
+The first screening pass rate was 51%. The final test's pass rate was 49.64%, which is somewhat easier than the 2023–2024 test.
 
 Test checks skills about MVC structure, and Development process, and a bit of SQL/Java/Unix.
 
@@ -116,12 +118,13 @@ Test checks skills about MVC structure, and Development process, and a bit of SQ
 
 ## 🎧 Personal Note
 
-I enjoy vinyl records and various kinds of music in my spare time.
-SPK, François Couperin, Coil, Sidiki Diabaté, Korean traditional music, Chinese pipa, 
+I enjoy vinyl records and various kinds of music in my spare time.  
+SPK, François Couperin, Coil, Sidiki Diabaté, Korean traditional music, Chinese pipa,  
 
-Japanese traditional music from the Edo period, Iannis Xenakis(Greek: Ιάννης Ξενάκης), Blind Willie Mctell, Johnny Winter, etc.
+Japanese traditional music from the Edo period, Iannis Xenakis (Greek: Ιάννης Ξενάκης), Blind Willie McTell, Johnny Winter, etc.
 
 As an oldies pick, how about Led Zeppelin and Chuck Berry? 😉
+
 
 ---
 
