@@ -117,9 +117,9 @@ Test checks skills about MVC structure, and Development process, and a bit of SQ
 ## 🎧 Personal Note
 
 I enjoy vinyl records and various kinds of music in my spare time.
-SPK, François Couperin(Greek: Ιάννης Ξενάκης), Coil, Sidiki Diabaté, Korean Traditionals, 
+SPK, François Couperin, Coil, Sidiki Diabaté, Korean Traditionals, 
 
-Japanese traditional music from the Edo period, Iannis Xenakis, Blind Willie Mctell, Johnny Winter, etc.
+Japanese traditional music from the Edo period, Iannis Xenakis(Greek: Ιάννης Ξενάκης), Blind Willie Mctell, Johnny Winter, etc.
 
 As an oldies pick, How about Led Zeppelin, and Chuck Berry? 😉
 
