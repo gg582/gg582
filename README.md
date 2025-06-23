@@ -94,10 +94,10 @@ This is a Korean certificates, for informational engineering.
 
 This is not 'high-leveled' certificates. But this needs some comments. 
 
-I took 'Industrial Engineer' examination 's first screening, as I were not an undergradute student. I weas only 3rd grade.
+I took 'Industrial Engineer' examination 's first screening, as I were not an undergradute student. I was only 3rd grade.
 Engineer certificates does not allow people who graduated fourth grade of the college. So, students who are not undergraduate cannot take this.
 
-Also, colleges with 2 years courses cannot take this. In my opinion it is a kind of discrimiation.
+Also, colleges with 2 years courses cannot take this. In my opinion it is a kind of system limitation.
 
 And I took a final test in 2025. If I can get enough time to get 'Engineer' examination,
 
@@ -116,7 +116,12 @@ Test checks skills about MVC structure, and Development process, and a bit of SQ
 
 ## 🎧 Personal Note
 
-I enjoy vinyl records and niche experimental music in my spare time.
+I enjoy vinyl records and various kinds of music in my spare time.
+SPK, François Couperin(Greek: Ιάννης Ξενάκης), Coil, Sidiki Diabaté, Korean Traditionals, 
+
+Japanese traditional music from the Edo period, Iannis Xenakis, Blind Willie Mctell, Johnny Winter, etc.
+
+As an oldies pick, How about Led Zeppelin, and Chuck Berry? 😉
 
 ---
 
