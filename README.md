@@ -1,8 +1,8 @@
 
-# Hi, I'm @yoonjin67 (Lee Yunjin)
+# Hi, I'm @gg582 (Lee Yunjin)
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=yoonjin67)](https://solved.ac/yoonjin67)
-[![github stats](https://github-readme-stats.vercel.app/api?username=yoonjin67)](https://github.com/anuraghazra/github-readme-stats)
+[![github stats](https://github-readme-stats.vercel.app/api?username=gg582)](https://github.com/anuraghazra/github-readme-stats)
 
 ## About Me
 
@@ -130,5 +130,5 @@ As an oldies pick, how about Led Zeppelin and Chuck Berry? 😉
 
 ## 🔗 Stats & Profiles
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=yoonjin67&theme=dark)](https://git.io/streak-stats)  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yoonjin67&layout=compact&theme=dark&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOS-car,DOOM)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=gg582&theme=dark)](https://git.io/streak-stats)  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gg582&layout=compact&theme=dark&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOS-car,DOOM)](https://github.com/anuraghazra/github-readme-stats)
