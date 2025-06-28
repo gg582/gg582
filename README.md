@@ -30,11 +30,11 @@ Currently learning Java and C# to expand my backend capabilities.
 - **Lines of Code**: 4424 LOC
 - **Highlight**: Simulates virtual car feedback and executes on physical hardware.
 
-### 🖥️ linuxVirtualization
+### 🖥️ IncuSpeed
 - **Description**: Linux container manager with KivyMD GUI and Go-based secure daemon.
 - **Tech Stack**: Go, Python, Shell, KivyMD, AES, bcrypt
-- **Lines of Code**: 2271 LOC
-- **Highlight**: Supports container lifecycle management with encrypted communication.
+- **Lines of Code**: 2816 LOC
+- **Highlight**: Extremely simplified management of incus container
 
 ### 📊 Political Opinion Dynamics Simulator
 - **Description**: Simulates political opinion spread across social strata using C (core logic) and Python (visualization).
@@ -44,7 +44,7 @@ Currently learning Java and C# to expand my backend capabilities.
 ### 💻 NatPP (Nat++)
 - **Description**: A lightweight DSL transpiled into C/C++ using regex, offering natural language constructs.
 - **Tech Stack**: C/C++, Bash
-- **Highlight**: Enhances code readability with keywords like `Then` for `{` and `Is` for `=`.\
+- **Highlight**: Enhances code readability with keywords like `Then` for `{` and `Is` for `=`.
 
 ```cpp
 ImportCode iostream
