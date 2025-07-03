@@ -43,7 +43,7 @@ Currently learning Java and C# to expand my backend capabilities.
 
 ### 💻 NatPP (Nat++)
 - **Description**: A lightweight DSL transpiled into C/C++ using regex, offering natural language constructs.
-- **Tech Stack**: C/C++, Bash
+- **Tech Stack**: C/C++
 - **Highlight**: Enhances code readability with keywords like `Then` for `{` and `Is` for `=`.
 
 ```cpp
