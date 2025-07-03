@@ -118,10 +118,12 @@ Test checks skills about MVC structure, and Development process, and a bit of SQ
 
 ## 🎧 Personal Note
 
-I enjoy vinyl records and various kinds of music in my spare time.  
+I enjoy vinyl records and various kinds of music in my spare time. Vinyl records are easy to care.
 SPK, François Couperin, Coil, Sidiki Diabaté, Korean traditional music, Chinese pipa,  
 
 Japanese traditional music from the Edo period, Iannis Xenakis (Greek: Ιάννης Ξενάκης), Blind Willie McTell, Johnny Winter, etc.
+
+Owns some Rock, Blues, Classical, Baroque, and Jazz vinyls.
 
 As an oldies pick, how about Led Zeppelin and Chuck Berry? 😉
 
