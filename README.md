@@ -33,7 +33,7 @@ Currently learning Java and C# to expand my backend capabilities.
 ### 🖥️ IncuSpeed
 - **Description**: Linux container manager with KivyMD GUI and Go-based secure daemon.
 - **Tech Stack**: Go, Python, Shell, KivyMD, AES, bcrypt
-- **Lines of Code**: 2816 LOC
+- **Lines of Code**: 3052 LOC
 - **Highlight**: Extremely simplified management of incus container
 
 ### 📊 Political Opinion Dynamics Simulator
