@@ -27,18 +27,19 @@ Currently learning Java and C# to expand my backend capabilities.
 ### 🚗 RemoteCarFromMonet
 - **Description**: Kubernetes-integrated remote car control system with C-based motor drivers and Go-based K8s deployment.
 - **Tech Stack**: C, Go, Shell, Kubernetes
-- **Lines of Code**: 4424 LOC
+- **Lines of Code**: 4125 LOC, README excluded: 4053 LOC
 - **Highlight**: Simulates virtual car feedback and executes on physical hardware.
 
 ### 🖥️ IncuSpeed
 - **Description**: Linux container manager with KivyMD GUI and Go-based secure daemon.
 - **Tech Stack**: Go, Python, Shell, KivyMD, AES, bcrypt
-- **Lines of Code**: 3052 LOC
+- **Lines of Code**: 3130 LOC, README excluded: 2752 LOC
 - **Highlight**: Extremely simplified management of incus container
 
 ### 📊 Political Opinion Dynamics Simulator
 - **Description**: Simulates political opinion spread across social strata using C (core logic) and Python (visualization).
 - **Tech Stack**: C, Python
+- **Super Lightweight**: Single Core, C++, **468 LOC**
 - **Highlight**: Models polarization and convergence, reflecting social theories like Social Identity Theory.
 
 ### 💻 NatPP (Nat++)
