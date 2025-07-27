@@ -10,7 +10,7 @@ Currently learning Java and C# to expand my backend capabilities.
 ## 💻 Skills
 | Language         | Level       | Experience       |
 |------------------|-------------|------------------|
-| C, C++           | Advanced    | Simulation, Drivers |
+| C, C++           | Beginner    | Simulation, Drivers |
 | Go               | Intermediate| GUI, Daemon         |
 | Python           | Intermediate| Visualization       |
 | Kubernetes       | Intermediate| Cluster Setup       |
