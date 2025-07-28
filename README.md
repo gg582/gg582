@@ -135,4 +135,5 @@ As a recent pick, Frank Ocean, `Tyler, The Creator` are cool. You can hear many 
 ## 🔗 Stats & Profiles
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=gg582&theme=dark)](https://git.io/streak-stats)  
+
 [![Top Langs](https://github-readme-stats-rouge-rho-81.vercel.app/api/top-langs/?username=gg582&layout=compact&theme=dark&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOSMiniCarImplementation,DOOM,CSharp-Arkanoid-based-Project,tk9.0,simple-html-examples)](https://github.com/anuraghazra/github-readme-stats)
