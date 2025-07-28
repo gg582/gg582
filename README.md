@@ -30,6 +30,12 @@ Currently learning Java and C# to expand my backend capabilities.
 - **Lines of Code**: 4125 LOC, README excluded: 4053 LOC
 - **Highlight**: Simulates virtual car feedback and executes on physical hardware.
 
+### ⚙️ DevOpsPlayground
+- **Description**: Miscellaneous tools for Kubernetes Cluster Management
+- **Tech Stack**: Helm, Kubernetes, Yaml, Shell, Ansible
+- **Lines of Code**: 4089 LOC, README excluded: 3989 LOC
+- **Highlight**: Reproduces same services with provided tools
+
 ### 🖥️ IncuSpeed
 - **Description**: Linux container manager with KivyMD GUI and Go-based secure daemon.
 - **Tech Stack**: Go, Python, Shell, KivyMD, AES, bcrypt
@@ -67,12 +73,6 @@ Then
 
 Okay
 ```
-
-
-### 🎮 Arkanoid-based Oriental Dotted Graphic Game
-- **Description**: A 2D shooting game built with Unity and C#, featuring manual y-axis paddle control and oriental aesthetics.
-- **Tech Stack**: Unity, C#
-- **Highlight**: Includes block HP mechanics and ChatGPT-generated backgrounds, submitted to Daegu University’s Game Programming Basics lecture.
 
 ---
 
