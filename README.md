@@ -108,6 +108,10 @@ Test checks skills about MVC structure, and Development process, and a bit of SQ
 
 ---
 
+## All Lines of Codes (except other developer's repository fork)
+
+![Total Lines of Code](https://github.com/gg582/allcloc/blob/main/public/banner.svg)
+
 ## 📫 Contact
 
 - Email: [gg582@naver.com](mailto:gg582@naver.com)
