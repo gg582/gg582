@@ -85,9 +85,6 @@ Okay
 - Java, C# (Learning)
 ## 🧠 Research Assistant Certificates
 ![Researches](./certs.png)
-The award was focused on presentation.
-Plus, there can be some problem while uploading collaborated code into this.
-So, I attach the actual award.
 
 ![Awards](./award.png)
 ![IndustrialEngineer](./industrial_engineer.png)
