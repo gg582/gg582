@@ -117,6 +117,7 @@ Test checks skills about MVC structure, and Development process, and a bit of SQ
 ## 📫 Contact
 
 - Email: [gg582@naver.com](mailto:gg582@naver.com)
+- Email: [gzblues61@daum.net](mailto:gzblues61@daum.net)
 ---
 
 
