@@ -18,7 +18,6 @@ Currently learning Java and C# to expand my backend capabilities.
 | Helm             | Intermediate|   Deployment        |
 ----------------------------------------------------
 
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/generate_badge?boj=yoonjin67)](https://solved.ac/yoonjin67)
 [![github stats](https://github-readme-stats.vercel.app/api?username=gg582)](https://github.com/anuraghazra/github-readme-stats)
 
 
