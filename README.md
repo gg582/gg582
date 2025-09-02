@@ -7,9 +7,14 @@ Currently learning Java and C# to expand my backend capabilities.
 
 ---
 
+## 🏃 Recent Activities
+- Contributed to `moeru-ai/airi` (Please report some good issues)
+- Learning Javascript
+- Developed `laputil` for personal use
+
 ## 💻 Skills
-| Language         | Level       | Experience       |
-|------------------|-------------|------------------|
+| Language         | Level       | Experience          |
+|------------------|-------------|---------------------|
 | C, C++           | Beginner    | Simulation, Drivers |
 | Go               | Intermediate| GUI, Daemon         |
 | Python           | Intermediate| Visualization       |
