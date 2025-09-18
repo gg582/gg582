@@ -23,9 +23,6 @@ Currently learning Java and C# to expand my backend capabilities.
 | Helm             | Intermediate|   Deployment        |
 ----------------------------------------------------
 
-[![github stats](https://github-readme-stats.vercel.app/api?username=gg582)](https://github.com/anuraghazra/github-readme-stats)
-
-
 ## 🧩 Key Projects
 
 ### 🚗 RemoteCarFromMonet
