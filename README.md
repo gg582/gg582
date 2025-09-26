@@ -3,7 +3,7 @@
 ## About Me
 
 I'm a college student with strong interests in Unix/Linux system management, automation scripting, container orchestration, and Go-based development.  
-Currently learning Java and C# to expand my backend capabilities.
+Currently learning Java to expand my backend capabilities.
 
 ---
 
