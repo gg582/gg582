@@ -31,6 +31,12 @@ Currently learning Java to expand my backend capabilities.
 - **Lines of Code**: 4125 LOC, README excluded: 4053 LOC
 - **Highlight**: Simulates virtual car feedback and executes on physical hardware.
 
+### 🖥️ SSH-Chatter
+- **Description**: TUI-based Chatting/BBS server that can be connected via TELNET/SSH.
+- **Tech Stack**: C, Linux
+- **Lines of Code**: 26923 LOC, README excluded: 26725 LOC
+- **Highlight**: TUI BBS that is actually serviced, used ChatGPT Codex to write a project.
+
 ### ⚙️ DevOpsPlayground
 - **Description**: Miscellaneous tools for Kubernetes Cluster Management
 - **Tech Stack**: Helm, Kubernetes, Yaml, Shell, Ansible
