@@ -11,6 +11,7 @@ Currently learning Java to expand my backend capabilities.
 - Contributed to `moeru-ai/airi` (Please report some good issues)
 - Learning Javascript
 - Developed `laputil` for personal use
+- Developed `ssh-chatter` to open a BBS. (TELNET/SSH: `chat.korokorok.com`)
 
 ## 💻 Skills
 | Language         | Level       | Experience          |
