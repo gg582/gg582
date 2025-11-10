@@ -90,7 +90,7 @@ Okay
 
 - Unix/Linux System Management
 - Container Orchestration (Docker, Incus, Kubernetes, Ansible)
-- Go Language (Tcl/Tk 9.0 GUI) *now official tk9.0 supports more widgets. use that*
+- Go Language (Tcl/Tk 9.0 GUI, Kubernetes, NATS) *now official tk9.0 supports more widgets. use that*
 - Shell & Python Automation
 - Java, C# (Learning)
 ## 🧠 Research Assistant Certificates
