@@ -98,8 +98,6 @@ Okay
 
 ![Awards](./award.png)
 ![IndustrialEngineer](./industrial_engineer.png)
-![Award2](./IT공학대전학생작품경진대회상.png)
-![edu](./하나금융창업교육.png)
 This is a Korean certificates, for informational engineering. 
 
 This is not 'high-leveled' certificates. But this needs some comments. 
@@ -118,6 +116,8 @@ The first screening pass rate was 51%. The final test's pass rate was 49.64%, wh
 
 Test checks skills about MVC structure, and Development process, and a bit of SQL/Java/Unix.
 
+![Award2](./IT공학대전학생작품경진대회상.png)
+![edu](./하나금융창업교육.png)
 ---
 
 ## All Lines of Codes (except other developer's repository fork)
