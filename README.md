@@ -98,8 +98,8 @@ Okay
 
 ![Awards](./award.png)
 ![IndustrialEngineer](./industrial_engineer.png)
-![Award2](./IT공학대전학생작품경진대회상.pdf)
-![edu](./하나금융창업교육.pdf)
+![Award2](./IT공학대전학생작품경진대회상.png)
+![edu](./하나금융창업교육.png)
 This is a Korean certificates, for informational engineering. 
 
 This is not 'high-leveled' certificates. But this needs some comments. 
