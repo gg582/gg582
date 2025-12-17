@@ -35,7 +35,7 @@ Currently learning Java to expand my backend capabilities.
 ### 🖥️ SSH-Chatter
 - **Description**: TUI-based Chatting/BBS server that can be connected via TELNET/SSH.
 - **Tech Stack**: C, Linux
-- **Lines of Code**: 49623 LOC, README excluded: 49115 LOC
+- **Lines of Code**: 55794 LOC, README excluded: 54408 LOC
 - **Highlight**: TUI BBS that is actually serviced, used ChatGPT Codex to write a project.
 
 ### ⚙️ DevOpsPlayground
