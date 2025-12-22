@@ -5,6 +5,14 @@
 I'm a college student with strong interests in Unix/Linux system management, automation scripting, container orchestration, and Go-based development.  
 Currently learning Java to expand my backend capabilities.
 
+
+## 🔗 Stats & Profiles
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=gg582&theme=dark)](https://git.io/streak-stats)  
+![Stats](https://github-readme-stats.vercel.app/api?username=gg582&show_icons=true&include_all_commits=true&count_private=true)
+[![Top Langs](https://github-readme-stats-rouge-rho-81.vercel.app/api/top-langs/?username=gg582&layout=compact&theme=dark&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOSMiniCarImplementation,DOOM,CSharp-Arkanoid-based-Project,tk9.0,simple-html-examples,asahi-npu)](https://github.com/anuraghazra/github-readme-stats)
+![Total Lines of Code](https://github.com/gg582/allcloc/blob/main/public/banner.svg)
+
 ---
 
 ## 🏃 Recent Activities
@@ -120,10 +128,6 @@ Test checks skills about MVC structure, and Development process, and a bit of SQ
 ![edu](./하나금융창업교육.png)
 ---
 
-## All Lines of Codes (except other developer's repository fork)
-
-![Total Lines of Code](https://github.com/gg582/allcloc/blob/main/public/banner.svg)
-
 ## 📫 Contact
 
 - Email: [gg582@naver.com](mailto:gg582@naver.com)
@@ -145,9 +149,3 @@ As a recent pick, Frank Ocean, `Tyler, The Creator` are cool. You can hear many 
 
 
 ---
-
-## 🔗 Stats & Profiles
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=gg582&theme=dark)](https://git.io/streak-stats)  
-
-[![Top Langs](https://github-readme-stats-rouge-rho-81.vercel.app/api/top-langs/?username=gg582&layout=compact&theme=dark&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOSMiniCarImplementation,DOOM,CSharp-Arkanoid-based-Project,tk9.0,simple-html-examples,asahi-npu)](https://github.com/anuraghazra/github-readme-stats)
