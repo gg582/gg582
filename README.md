@@ -11,6 +11,8 @@ Currently learning Java to expand my backend capabilities.
 ## Key Projects
 ### RemoteCarFromMonet
 - Kubernetes-integrated remote car control system (C motor driver + Go-based deployment)
+### AvianRaptorNet
+- Tiny Image Classifier model that is inpired by **tectofugal/thalamofugal visual pathway** of birds
 
 ### Linux-Mountain
 - Linux kernel/networking tweaks for more predictable latency (BBR / ECMP / NAPI experiments)
