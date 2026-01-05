@@ -27,7 +27,7 @@ Currently learning Java to expand my backend capabilities.
 ### SSH-Chatter
 - TUI-based BBS/chat server over SSH/TELNET
 - Stack: C, Linux
-[Link](https://github.com/gosuda/ssh-chatter)
+- [Link](https://github.com/gosuda/ssh-chatter)
 
 ### DevOpsPlayground
 - Reproducible Kubernetes cluster/service tooling (Helm/Ansible/Shell)
