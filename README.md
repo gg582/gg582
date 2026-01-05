@@ -24,7 +24,6 @@ Currently learning Java to expand my backend capabilities.
 - Stack: C, Linux kernel
 - [Link](https://github.com/gg582/linux-mountain)
 
-
 ### SSH-Chatter
 - TUI-based BBS/chat server over SSH/TELNET
 - Stack: C, Linux
