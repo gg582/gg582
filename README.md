@@ -11,26 +11,40 @@ Currently learning Java to expand my backend capabilities.
 ## Key Projects
 ### RemoteCarFromMonet
 - Kubernetes-integrated remote car control system (C motor driver + Go-based deployment)
+- Stack: C, Go, Shell, Kubernetes
+- [Link](https://github.com/gg582/remotecarfrommonet)
+
 ### AvianRaptorNet
-- Tiny Image Classifier model that is inpired by **tectofugal/thalamofugal visual pathway** of birds
+- Tiny image classifier inspired by avian tectofugal/thalamofugal visual pathways
+- Stack: PyTorch, Python
+- [Link](https://github.com/gg582/avianraptornet)
 
 ### Linux-Mountain
 - Linux kernel/networking tweaks for more predictable latency (BBR / ECMP / NAPI experiments)
+- Stack: C, Linux kernel
+- [Link](https://github.com/gg582/linux-mountain)
+
 
 ### SSH-Chatter
 - TUI-based BBS/chat server over SSH/TELNET
+- Stack: C, Linux
+[Link](https://github.com/gosuda/ssh-chatter)
 
 ### DevOpsPlayground
 - Reproducible Kubernetes cluster/service tooling (Helm/Ansible/Shell)
+- Stack: Kubernetes, Helm, Ansible, Shell
+- [Link](https://github.com/gg582/devopsplayground)
 
 ### IncuSpeed
 - Incus container manager (Python GUI + Go secure daemon)
-
+- Stack: Python, Go, Incus
+- [Module](https://github.com/gg582/linux_virt_unit)
+- [Application](https://github.com/gg582/incuspeed)
 ---
 
 ## Activities & Credentials
 ### Research Assistant / Projects
-- Research Assistant in national R&D projects (ETRI/National Research Foundation related)
+- Research Assistant in national R&D projects (ETRI: 2, NRF: 4)
 
 ![Researches](./certs.png)
 
