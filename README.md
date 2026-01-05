@@ -19,6 +19,7 @@ Currently learning Java to expand my backend capabilities.
 - Contributed to `moeru-ai/airi` (Please report some good issues)
 - Learning Javascript
 - Developed `laputil` for personal use
+- Tweaked linux network stack for personal use(`linux-mountain`, mostly routing tweak on kernel)
 - Developed `ssh-chatter` to open a BBS. (TELNET/SSH: `chat.korokorok.com`, TELNET PORT: 2323, SSH PORT: 2222)
 
 ## 💻 Skills
