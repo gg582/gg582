@@ -59,8 +59,8 @@ Currently learning Java to expand my backend capabilities.
 - **Lines of Code**: 3130 LOC, README excluded: 2752 LOC
 - **Highlight**: Extremely simplified management of incus container
 
-### 📊 Political Opinion Dynamics Simulator
-- **Description**: Simulates political opinion spread across social strata using C (core logic) and Python (visualization).
+### 📊 Opinion Dynamics Simulator
+- **Description**: Simulates opinion spread across social strata using C (core logic) and Python (visualization).
 - **Tech Stack**: C, Python
 - **Super Lightweight**: Single Core, C++, **468 LOC**
 - **Highlight**: Models polarization and convergence, reflecting social theories like Social Identity Theory.
