@@ -9,6 +9,7 @@ Currently learning Java to expand my backend capabilities.
 - Go services (daemon, CLI, tooling)
 - C Programming
 
+
 ```c
 /*
  * Tiered execution flow designed for zero-latency branch prediction.
@@ -24,7 +25,7 @@ uint64_t next_step(uint64_t n) {
         return n << 1;
     }
 
-    // Check if it is `libttak` big integer.
+    // Check if it is big integer.
     // XOR is great for quickly comparing mask bits
     if (((n ^ BIGINT_TAG_MASK) & BIGINT_TAG_MASK) == 0) {
         return ttak_bigint_mul2(n);
@@ -50,7 +51,7 @@ uint64_t scale_val(uint64_t n) {
         return n << 1;
     }
 
-    // Check if it is `libttak` big integer.
+    // Check if it is big integer.
     // XOR is great for quickly comparing mask bits
     if (((n ^ TAG_MSK) & TAG_MSK) == 0) {
         return core_big_mul2(n);
