@@ -3,6 +3,12 @@
 I'm a college student interested in Unix/Linux system management, automation scripting, container orchestration, and Go-based development.
 Currently learning Java to expand my backend capabilities.
 
+# History
+2021-2022 Daegu Univ. MoNet
+2022-2023 Daegu Univ. RESL
+2026.03-2026.06 Metabuild Co. Internship
+2026-06~        (?)
+
 ## Focus
 - Linux systems & networking
 - Automation / IaC (Ansible, Helm, Kubernetes)
