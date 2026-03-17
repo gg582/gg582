@@ -1,7 +1,8 @@
 # Hi, I'm Lee Yunjin (@gg582)
 
-I'm a college student interested in Unix/Linux system management, automation scripting, container orchestration, and Go-based development.
-Currently learning Java to expand my backend capabilities.
+I'm doing an internship from Metabuild Co.
+I am interested in Unix/Linux system management, automation scripting, container orchestration, and Go-based development.
+Currently learning Legacy Java to follow up with my internship.
 
 # History
 - 2021-2022 Daegu Univ. MoNet
