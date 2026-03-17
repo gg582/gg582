@@ -3,6 +3,7 @@
 I'm doing an internship from Metabuild Co.
 I am interested in Unix/Linux system management, automation scripting, container orchestration, and Go-based development.
 Currently learning Legacy Java to follow up with my internship.
+Many of my current projects are just for fun; so it does not match with my internship track.
 
 # History
 - 2021-2022 Daegu Univ. MoNet
