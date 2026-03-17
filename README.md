@@ -142,4 +142,5 @@ uint64_t scale_val(uint64_t n) {
 ---
 
 ## Contact
+- gg582@proton.me
 - gzblues61@daum.net
