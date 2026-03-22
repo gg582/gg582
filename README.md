@@ -2,8 +2,14 @@
 
 I'm doing an internship from Metabuild Co.
 I am interested in Unix/Linux system management, automation scripting, container orchestration, and Go-based development.
-Currently learning Legacy Java to follow up with my internship.
+Currently learning Java(OpenJDK 8) to follow up with my internship.
 Many of my current projects are just for fun; so it does not match with my internship track.
+
+## Track
+
+- Basics: OpenJDK 8
+- Intermediate: Various JDK versions(8, 11, 17, 21)
+- Hard: PostgreSQL, Security Solutions, Infrastructure, Stateless
 
 # History
 - 2021-2022 Daegu Univ. MoNet
