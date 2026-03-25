@@ -86,6 +86,18 @@ uint64_t scale_val(uint64_t n) {
 ```
 
 ## Key Projects
+
+### LibTTAK
+- Consistent, Predictable, and Safe Memory Model for Pure C
+- Stack: C
+- [Link](https://github.com/religiya-serdtsa/libttak)
+### Nanox
+- Minimalistic, Modern Interpertation of UEmacs/PK
+- Stack: C, Legacy, ncurses
+### Margo
+- Custom, Cute, Moe. A Brand-new otaku language
+- Stack: C, Margo(its own)
+
 ### RemoteCarFromMonet
 - Kubernetes-integrated remote car control system (C motor driver + Go-based deployment)
 - Stack: C, Go, Shell, Kubernetes
