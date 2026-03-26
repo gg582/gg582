@@ -152,7 +152,7 @@ uint64_t scale_val(uint64_t n) {
 
 ## Stats (Optional)
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=gg582&theme=dark)](https://git.io/streak-stats)
-[![Top Langs](https://github-readme-stats-rouge-rho-81.vercel.app/api/top-langs/?username=gg582&layout=compact&theme=dark&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOSMiniCarImplementation,CSharp-Arkanoid-based-Project,tk9.0,simple-html-examples)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-rouge-rho-81.vercel.app/api/top-langs/?username=gg582&layout=compact&theme=dark&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOSMiniCarImplementation,CSharp-Arkanoid-based-Project,tk9.0,nanox_rust,simple-html-examples)](https://github.com/anuraghazra/github-readme-stats)
 [Grade](https://github-readme-stats.vercel.app/api?username=gg582&show_icons=true)
 ![Total Lines of Code](https://github.com/gg582/allcloc/blob/main/public/banner.svg)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yoonjin67)](https://solved.ac/yoonjin67/)
