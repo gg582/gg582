@@ -94,7 +94,7 @@ uint64_t scale_val(uint64_t n) {
 ### Nanox
 - Minimalistic, Modern Interpertation of UEmacs/PK
 - Stack: C, Legacy, ncurses
-- - [Link](https://github.com/gg582/nanox)
+- [Link](https://github.com/gg582/nanox)
 
 ### Margo
 - Custom, Cute, Moe. A Brand-new otaku language
