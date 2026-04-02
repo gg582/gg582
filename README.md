@@ -8,8 +8,8 @@ Many of my current projects are just for fun; so it does not match with my inter
 ## Track
 
 - Basics: OpenJDK 8
-- Intermediate: Various JDK versions(8, 11, 17, 21)
-- Hard: PostgreSQL, Security Solutions, Infrastructure, Stateless
+- Intermediate: Legacy JDK, Latest JDK(1.6, 8, 21)
+- Hard: PostgreSQL(Legacy 9.6, Latest), Security Solutions, Infrastructure, Stateless
 
 # History
 - 2021-2022 Daegu Univ. MoNet
