@@ -14,7 +14,7 @@ Many of my current projects are just for fun; so it does not match with my inter
 # History
 - 2021-2022 Daegu Univ. MoNet
 - 2022-2023 Daegu Univ. RESL
-- 2026.03-2026.06 Metabuild Co. Internship
+- 2026.03.03-2026.06.02 Metabuild Co. Internship
 - 2026-06~        (?)
 
 ## Focus
