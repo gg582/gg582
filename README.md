@@ -42,7 +42,7 @@ uint64_t next_step(uint64_t n) {
     // Check if it is big integer.
     // XOR is great for quickly comparing mask bits
     if (((n ^ BIGINT_TAG_MASK) & BIGINT_TAG_MASK) == 0) {
-        return ttak_bigint_mul2(n);
+        return bigint_mul2(n);
     }
 
     // 'double *= 2' by incrementing the exponent bits
