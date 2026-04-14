@@ -9,7 +9,7 @@ Many of my current projects are just for fun; so it does not match with my inter
 
 - Basics: OpenJDK 8, Legacy PostgreSQL(9.6)
 - Intermediate: Legacy JDK to Latest JDK(1.6, 8, 21)
-- Hard: PostgreSQL(16), Security Solutions, Infrastructure, Stateless
+- Hard: Apache Tika, Server Management, Design Pattern
 
 # History
 - 2021-2022 Daegu Univ. MoNet
