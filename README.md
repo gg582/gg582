@@ -70,36 +70,8 @@ uint64_t next_step(uint64_t n) {
         return exp_inc;
     }
 
+    // Safely promote the result to big int type and return. 
     return promote_to_bigint_and_mul2(n);
-}
-
-#define TAG_MSK 0xFFF8000000000000ULL
-#define EXP_MSK 0x7FF0000000000000ULL
-
-uint64_t scale_val(uint64_t n) {
-    // First, check if it is `intxx_t`
-    if (!(n & 0xC000000000000000ULL)) {
-        // this is int, return n << 1; same as return (n * 2)
-        return n << 1;
-    }
-
-    // Check if it is big integer.
-    // XOR is great for quickly comparing mask bits
-    if (((n ^ TAG_MSK) & TAG_MSK) == 0) {
-        return core_big_mul2(n);
-    }
-
-    // 'double *= 2' by incrementing the exponent bits
-    // Keeps data within General Purpose Registers, avoiding FPU stalls.
-    uint64_t next_f = n + (1ULL << 52);
-    if ((next_f & EXP_MSK) != EXP_MSK) {
-        return next_f;
-    }
-
-    // Final safety net for numbers exceeding double-precision limits.
-    // We went too far, just 'toss' this number as a huge double.
-    // If a programmer want to cast, use other functions:
-    return promote_t_big_double_and_mul2(n);
 }
 ```
 
