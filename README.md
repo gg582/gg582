@@ -5,7 +5,19 @@ I am interested in Unix/Linux system management, automation scripting, container
 Currently learning Java(OpenJDK 8) to follow up with my internship.
 Many of my current projects are just for fun; so it does not match with my internship track.
 
-## Track
+## Skills
+
+- Go
+- Cloud Computing
+- Linux
+- FreeBSD
+- C/C++
+- RIOT OS
+- ContikiOS
+- Software Optimization
+- Java
+
+## Internship Track
 
 - Basics: OpenJDK 8, Legacy PostgreSQL(9.6)
 - Intermediate: Legacy JDK to Latest JDK(1.6, 8, 21)
