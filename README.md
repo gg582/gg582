@@ -33,9 +33,13 @@ Many of my current projects are just for fun; so it does not match with my inter
 
 ## Focus
 - Linux systems & networking
+  - Kernel-level Tweak
 - Automation / IaC (Ansible, Helm, Kubernetes)
-- Go services (daemon, CLI, tooling)
+- Go services (daemon, CLI, tooling, Web Development)
 - C Programming
+  - Legacy Refactoring
+  - System Optimization
+  - C/C++ Lightweight Web Back-end
 
 
 ```c
@@ -105,35 +109,11 @@ uint64_t scale_val(uint64_t n) {
 - Consistent, Predictable, and Safe Memory Model for Pure C
 - Stack: C
 - [Link](https://github.com/religiya-serdtsa/libttak)
+
 ### Nanox
 - Minimalistic, Modern Interpertation of UEmacs/PK
 - Stack: C, Legacy, ncurses
 - [Link](https://github.com/gg582/nanox)
-
-### Margo
-- Custom, Cute, Moe. A Brand-new otaku language
-- Stack: C, Margo(its own)
-- [Link](https://github.com/religiya-serdtsa/margo)
-
-### RemoteCarFromMonet
-- Kubernetes-integrated remote car control system (C motor driver + Go-based deployment)
-- Stack: C, Go, Shell, Kubernetes
-- [Link](https://github.com/gg582/remotecarfrommonet)
-
-### AvianRaptorNet
-- Tiny image classifier inspired by avian tectofugal/thalamofugal visual pathways
-- Stack: PyTorch, Python
-- [Link](https://github.com/gg582/avianraptornet)
-
-### Linux-Mountain
-- Linux kernel/networking tweaks for more predictable latency (BBR / ECMP / NAPI experiments)
-- Stack: C, Linux kernel
-- [Link](https://github.com/gg582/linux-mountain)
-
-### SSH-Chatter
-- TUI-based BBS/chat server over SSH/TELNET
-- Stack: C, Linux
-- [Link](https://github.com/gosuda/ssh-chatter)
 
 ### DevOpsPlayground
 - Reproducible Kubernetes cluster/service tooling (Helm/Ansible/Shell)
@@ -145,6 +125,34 @@ uint64_t scale_val(uint64_t n) {
 - Stack: Python, Go, Incus
 - [Module](https://github.com/gg582/linux_virt_unit)
 - [Application](https://github.com/gg582/incuspeed)
+
+### RemoteCarFromMonet
+- Kubernetes-integrated remote car control system (C motor driver + Go-based deployment)
+- Stack: C, Go, Shell, Kubernetes
+- [Link](https://github.com/gg582/remotecarfrommonet)
+
+### Linux-Mountain
+- Linux kernel/networking tweaks for more predictable latency (BBR / ECMP / NAPI experiments)
+- Stack: C, Linux kernel
+- [Link](https://github.com/gg582/linux-mountain)
+
+### SSH-Chatter
+- TUI-based BBS/chat server over SSH/TELNET
+- Stack: C, Linux
+- [Link](https://github.com/gosuda/ssh-chatter)
+
+### AvianRaptorNet
+- Tiny image classifier inspired by avian tectofugal/thalamofugal visual pathways
+- Stack: PyTorch, Python
+- [Link](https://github.com/gg582/avianraptornet)
+
+---
+
+### Margo(for fun)
+- Custom, Cute, Moe. A Brand-new language
+- Stack: C, Margo(its own)
+- [Link](https://github.com/religiya-serdtsa/margo)
+
 ---
 
 ## Activities & Credentials
