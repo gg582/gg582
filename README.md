@@ -14,6 +14,8 @@ Many of my current projects are just for fun; so it does not match with my inter
 # History
 - 2021-2022 Daegu Univ. MoNet
 - 2022-2023 Daegu Univ. RESL
+- 2023-2025 Prepared for Graduation work(IncuSpeed)
+- 2025 Industrial Engineer Certificate, Hana Social Venture University
 - 2026.03.03-2026.06.02 Metabuild Co. Internship
 - 2026-06~        (?)
 
