@@ -143,6 +143,32 @@ uint64_t next_step(uint64_t n) {
 - Cons: This is a custom encryption which is quite heavy. It is only for an experiment, after all
 - [Link](https://github.com/gg582/choicrypt)
 
+### CWIST
+- Easy Web Development Suite for Pure C
+- Origin: **Why can't we invent Flask for C**
+- Stack: C
+- Pros: Easy AI-driven development, Fast MVP reproduction
+- Cons: No Implementation for HTTP/2, Implicit code lines
+- [Link](http://github.com/religiya-serdtsa/cwist)
+
+### Baboship
+- Easy EMS Parcel Shipping Prediction
+- Origin: **My Russian Alarm Clock from Ukraine is not arriving**
+- Stack: C, CWIST(its own), WASM
+- Pros: 100% AI-driven MVP
+- Cons: No prediction supported for sea parcel service
+- [Link](https://github.com/gg582/baboship)
+- [Website](https://gg582.github.io/baboship)
+
+### Ceversi
+- Super-lightweight Reversi/Othello VS Website with Virtual Betting Room
+- Origin: **ReactJS-like look and feel with SSR, all in C**
+- Stack: C, CWIST(its own), SQLite
+- Pros: 100% AI-driven MVP
+- Cons: The site is boring
+- [Link](https://github.com/gg582/ceversi)
+- [Website](https://ceversi.korokorok.com)
+
 ### Nanox
 - Minimalistic, Modern Interpertation of UEmacs/PK
 - Origin: Personal Interest about Remote Server Environment
