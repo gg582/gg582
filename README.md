@@ -87,6 +87,12 @@ uint64_t next_step(uint64_t n) {
 
 ## Key Projects
 
+```diff
+- Please See Carefully and analyze these two points:
++ Pros: What was done, and what is creative?
+! Cons: What is a limitation? And what can be enhanced further?
+```
+
 ### LibTTAK
 - Consistent, Predictable, and Safe Memory Model for Pure C
 - Origin: Local prototype for huge legacy style software's RSS footprint enhancement(Such as SSH-Chatter)
