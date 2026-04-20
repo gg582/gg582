@@ -311,7 +311,7 @@ uint64_t next_step(uint64_t n) {
 [![Top Langs](https://github-readme-stats-rouge-rho-81.vercel.app/api/top-langs/?username=gg582\&layout=compact\&theme=dark\&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOSMiniCarImplementation,CSharp-Arkanoid-based-Project,tk9.0,nanox_rust,simple-html-examples)](https://github.com/anuraghazra/github-readme-stats)
 [Grade](https://github-readme-stats.vercel.app/api?username=gg582&show_icons=true)
 ![Total Lines of Code](https://github.com/gg582/allcloc/blob/main/public/banner.svg)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=yoonjin67)](https://solved.ac/yoonjin67/)
+[![백준 서비스 종료 전 골드 II 캡처](http://gg582/gg582/blob/main/백준기록성캡쳐2026.png)]
 
 ---
 
