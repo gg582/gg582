@@ -4,7 +4,7 @@ I am interested in Unix/Linux system management, automation scripting, container
 Currently learning Java(OpenJDK 8) to follow up with my internship.
 Many of my current projects are just for fun; so it does not match with my internship track.
 
-*I'm doing a 3-month internship from Metabuild Co.*
+*I'm doing a 3-month internship from Metabuild Co.(March 3 - June 2)*
 
 ## Skills
 
