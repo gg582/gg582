@@ -35,9 +35,9 @@ Many of my current projects are just for fun; so it does not match with my inter
 ---
 
 # History
-- 2021-2022 Daegu Univ. MoNet
+- 2021-2022 Daegu Univ. **MoNet**
 - 2022-2023 Daegu Univ. RESL
-- 2023-2025 Prepared for Graduation work(IncuSpeed)
+- 2023-2025 Prepared for Graduation work (IncuSpeed)
 - 2025 Industrial Engineer Certificate, Hana Social Venture University
 - 2026.03.03-2026.06.02 Metabuild Co. Internship
 - 2026-06~        (?)
@@ -90,42 +90,50 @@ uint64_t next_step(uint64_t n) {
 
 ### LibTTAK
 - Consistent, Predictable, and Safe Memory Model for Pure C
+- Origin: Local prototype for huge legacy style software's RSS footprint enhancement(Such as SSH-Chatter)
 - Stack: C
 - [Link](https://github.com/religiya-serdtsa/libttak)
 
 ### Nanox
 - Minimalistic, Modern Interpertation of UEmacs/PK
+- Origin: Personal Interest about Remote Server Environment
 - Stack: C, Legacy, ncurses
 - [Link](https://github.com/gg582/nanox)
 
 ### DevOpsPlayground
 - Reproducible Kubernetes cluster/service tooling (Helm/Ansible/Shell)
+- Origin: Cloud Experiment & Management from **Daegu Univ. MoNet**
 - Stack: Kubernetes, Helm, Ansible, Shell
 - [Link](https://github.com/gg582/devopsplayground)
 
 ### IncuSpeed
 - Incus container manager (Python GUI + Go secure daemon)
+- Origin: *Discarded prototype* from **Daegu Univ. MoNet**
 - Stack: Python, Go, Incus
 - [Module](https://github.com/gg582/linux_virt_unit)
 - [Application](https://github.com/gg582/incuspeed)
 
 ### RemoteCarFromMonet
 - Kubernetes-integrated remote car control system (C motor driver + Go-based deployment)
+- Origin: **Daegu Univ. MoNet**
 - Stack: C, Go, Shell, Kubernetes
 - [Link](https://github.com/gg582/remotecarfrommonet)
 
 ### Linux-Mountain
 - Linux kernel/networking tweaks for more predictable latency (BBR / ECMP / NAPI experiments)
+- Origin: **Kernel Experiment**
 - Stack: C, Linux kernel
 - [Link](https://github.com/gg582/linux-mountain)
 
 ### SSH-Chatter
 - TUI-based BBS/chat server over SSH/TELNET
+- Origin: **SSH-Chat, Discord, KakaoTalk**
 - Stack: C, Linux
 - [Link](https://github.com/gosuda/ssh-chatter)
 
 ### AvianRaptorNet
 - Tiny image classifier inspired by avian tectofugal/thalamofugal visual pathways
+- Origin: Machine Learning Lecture from Daegu Univ.(Professor Lee Miran), *Ornithology*
 - Stack: PyTorch, Python
 - [Link](https://github.com/gg582/avianraptornet)
 
@@ -133,6 +141,7 @@ uint64_t next_step(uint64_t n) {
 
 ### Margo(for fun)
 - Custom, Cute, Moe. A Brand-new language
+- Origin: **Just for fun**
 - Stack: C, Margo(its own)
 - [Link](https://github.com/religiya-serdtsa/margo)
 
@@ -140,7 +149,7 @@ uint64_t next_step(uint64_t n) {
 
 ## Activities & Credentials
 ### Research Assistant / Projects
-- Research Assistant in national R&D projects (ETRI: 2, NRF: 4)
+- Research Assistant in national R&D projects (**ETRI: 2**, NRF: 4)
 
 ![Researches](./certs.png)
 
@@ -149,7 +158,7 @@ uint64_t next_step(uint64_t n) {
 ![Award2](./IT공학대전학생작품경진대회상.png)
 
 ### Certifications
-- Industrial Engineer (Information Processing) — passed (Korea)
+- Industrial Engineer (Information Processing) — passed (Republic of Korea)
 
 ![IndustrialEngineer](./industrial_engineer.png)
 
