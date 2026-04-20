@@ -1,6 +1,6 @@
 # 안녕하세요, 이윤진(@gg582)입니다
 
-[English README](https://github.com/gg582/gg582/README.en.md)
+[English README](https://github.com/gg582/gg582/blob/main/README.en.md)
 
 Linux, 네트워킹, 컨테이너 기반 인프라에 집중하는 시스템 레벨 개발자입니다.  
 C와 Go를 사용하여 로우레벨 시스템, 재현 가능한 환경, 성능 지향 도구를 만들어온 경험이 있습니다.
