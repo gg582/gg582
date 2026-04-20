@@ -94,25 +94,21 @@ uint64_t next_step(uint64_t n) {
 
 ## Key Projects
 
-```diff
-- Please See Carefully and analyze these two points:
-+ Strength: What was done, and what is creative?
-! Limitation: What is a limitation? And what can be enhanced further?
-```
-
 ### Internship Projects
 - Legacy System for Java 1.8 to Latest Spring Boot 4.x Application
 - Origin: "Java 1.8, Spring+MyBatis+Legacy PostgreSQL" Keywords given from Internship progress
-- Stack: Java, Maven, Spring Boot, MyBatis, Apache Tika, PostgreSQL, BountyCastle, JPA
+- Stack: Java, Maven, Spring Boot, MyBatis, Apache Tika, PostgreSQL, BouncyCastle, JPA
 - Strength: Explicit Code, Small LOC per each source file
 - Limitation: Verbose Code, Verbose & Deep Source Tree, Fragmented Service Requirements per each repository
 - [Spring Boot Link](https://github.com/gg582/file-mime-checker)
 - [Legacy Spring+MyBatis Link](https://github.com/gg582/spring-development-practice)
-- [Legacy Java+Legacy BountyCastle](https://github.com/gg582/encrymania)
+- [Legacy Java+Legacy BouncyCastle](https://github.com/gg582/encrymania)
 
 *Working with legacy Java environments (1.6–1.8) provided practical experience in handling real-world constraints such as compatibility and long-term maintenance.*
 
 *Refactoring legacy architectures requires structural analysis of code paths, data flow, and system behavior, followed by targeted improvements based on observable and measurable characteristics.*
+
+*Verbose and loosely structured code increases cognitive load and reduces maintainability, making structural refactoring essential for long-term system evolution.*
 
 ### Part 1. Infrastructure & Edge Computing
 
@@ -136,12 +132,11 @@ uint64_t next_step(uint64_t n) {
 - [Application](https://github.com/gg582/incuspeed)
 
 ### RemoteCarFromMonet
-- Strength: Integration of physical device control with Kubernetes-based deployment and networking experiments
+- Kubernetes-integrated remote car control system combining physical device drivers and distributed deployment
 - Origin: **Daegu Univ. MoNet**
 - Stack: C, Go, Shell, Kubernetes
-- Strength: Idea Sketch, Network Research, Brain Storming Result
-- Limitation: No Internal Proposals could be copied outside of a lab
-- [Link](https://github.com/gg582/remotecarfrommonet)
+- Strength: Integration of physical device control with Kubernetes-based deployment and networking experiments
+- Limitation: No Internal Proposals could be copied outside of a lab, cognitively friendly controller dashboard in Javascript(by @alisherfw) was omitted due to loss of GitLab server
 
 ### Part 2. System Optimization
 
@@ -168,7 +163,7 @@ uint64_t next_step(uint64_t n) {
 - Origin: **RIOTOS Experiments from Daegu Univ. RESL**
 - Stack: C, RTOS
 - Strength: Cool GPIO Peripherals Management from RIOTOS, **Driving pattern inspired by entomology(especially ants)**
-- Limitation: A car moves dumber than actual ants
+- Limitation: Rule-based navigation without adaptive or learning capability
 - [Link](https://github.com/gg582/RIOTOSMiniCarImplementation)
 
 ### Raspberry Pi Raspbot
@@ -182,7 +177,7 @@ uint64_t next_step(uint64_t n) {
 ---
 
 ```diff
-+ From here on, the software development is based on personal interest and beliefs. Although not practical, these are like 'well-crafted clockwork' pieces into which a lot of technical effort has been put, so please view them with affection.
++ The following projects focus on experimental system design, low-level control, and custom runtime behavior beyond typical production constraints.
 ```
 
 ### SSH-Chatter
@@ -190,7 +185,7 @@ uint64_t next_step(uint64_t n) {
 - Origin: **SSH-Chat, Discord, KakaoTalk**
 - Stack: C, Linux
 - Strength: Looks cool and 90's retro vive
-- Limitation: This is not cool in 2020s
+- Limitation: Limited applicability in modern distributed communication environments
 - [Link](https://github.com/gosuda/ssh-chatter)
 
 ### AvianRaptorNet
@@ -198,7 +193,7 @@ uint64_t next_step(uint64_t n) {
 - Origin: Machine Learning Lecture from Daegu Univ.(Professor Lee Miran), *Ornithology*
 - Stack: PyTorch, Python
 - Strength: Ultra-lightweight
-- Limitation: Low Proofs
+- Limitation: Limited experimental validation and benchmarking
 - [Link](https://github.com/gg582/avianraptornet)
 
 
@@ -241,12 +236,12 @@ uint64_t next_step(uint64_t n) {
 - Origin: **ReactJS-like look and feel with SSR, all in C**
 - Stack: C, CWIST(its own), SQLite
 - Strength: 100% AI-driven MVP
-- Limitation: The site is boring
+- Limitation: Game Features, Attractions are not enough to hold a user
 - [Link](https://github.com/gg582/ceversi)
 - [Website](https://ceversi.korokorok.com)
 
 ### Nanox
-- Minimalistic, Modern Interpertation of UEmacs/PK
+- Minimalistic, Modern Interpretation of UEmacs/PK
 - Origin: Personal Interest about Remote Server Environment
 - Stack: C, Legacy C Refactoring(GOD Architecture), ncursesw(UI Modernization)
 - Strength: Eye-candy Emacs fork, Ultra-lightweight
