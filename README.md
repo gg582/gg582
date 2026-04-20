@@ -103,14 +103,29 @@ uint64_t next_step(uint64_t n) {
 ### Internship Projects
 - Legacy System for Java 1.8 to Latest Spring Boot 4.x Application
 - Origin: "Java 1.8, Spring+MyBatis+Legacy PostgreSQL" Keywords given from Internship progress
-- Stack: Java, Maven
+- Stack: Java, Maven, Spring Boot, MyBatis, Apache Tika, PostgreSQL, BountyCastle, JPA
 - Pros: Explicit Code, Small LOC per each source file
-- Cons: Verbose Code, Dirty Source Tree, Fragmented Service Requirements per each repository
-![Spring Boot Link](https://github.com/gg582/file-mime-checker)
-![Legacy Spring+MyBatis Link](https://github.com/gg582/spring-development-practice)
-![Legacy Java+Legacy BouncyCastle](https://github.com/gg582/encrymania)
+- Cons: Verbose Code, Verbose & Deep Source Tree, Fragmented Service Requirements per each repository
+[Spring Boot Link](https://github.com/gg582/file-mime-checker)
+[Legacy Spring+MyBatis Link](https://github.com/gg582/spring-development-practice)
+[Legacy Java+Legacy BountyCastle](https://github.com/gg582/encrymania)
 
 *Personally, I don't think that the organization should stick to Java 1.6-1.8 in any purposes in 2026. That's the problem of economics, not a technology.*
+
+### RIOTOSMiniCarImplementation
+- A vehicle that drives according to rules while avoiding obstacles
+- Origin: **RIOTOS Experiments from Daegu Univ. RESL**
+- Stack: C, RTOS
+- Pros: Cool GPIO Peripherals Management from RIOTOS, **Driving pattern inspired by entomology(especially ants)**
+- Cons: A car moves dumber than actual ants
+- [Link](https://github.com/gg582/RIOTOSMiniCarImplementation)
+### Raspberry Pi Raspbot
+- A device driver, and a test application suites for Yahboom 4WD for RPi 4B
+- Origin: **Discarded IoT experiments from MoNet**
+- Stack: C, Linux Device Driver
+- Pros: Simplified IOCTL wrapper for I2C Chip interaction, Comprehensive Pin Interrupt handler for Ultrasonic sensor
+- Cons: No direct access/No low-level CPU-bound machine learning model for Raspi Cam
+- [Link](https://github.com/gg582/raspberry_pi_raspbot)
 
 ### LibTTAK
 - Consistent, Predictable, and Safe Memory Model for Pure C
