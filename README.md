@@ -305,7 +305,7 @@ uint64_t next_step(uint64_t n) {
 
 ---
 
-## 통계 (선택 사항)
+## 통계
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=gg582\&theme=dark)](https://git.io/streak-stats)
 [![Top Langs](https://github-readme-stats-rouge-rho-81.vercel.app/api/top-langs/?username=gg582\&layout=compact\&theme=dark\&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOSMiniCarImplementation,CSharp-Arkanoid-based-Project,tk9.0,nanox_rust,simple-html-examples)](https://github.com/anuraghazra/github-readme-stats)
