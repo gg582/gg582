@@ -23,9 +23,16 @@ Many of my current projects are just for fun; so it does not match with my inter
 | Difficulty | Focus Area | Tech Stack |
 | :--- | :--- | :--- |
 | **Basics** | Legacy Env. | OpenJDK 8, PostgreSQL 9.6 |
-| **Intermediate** | JDK Migration | Legacy JDK to Latest (1.6, 8, 21) |
+| **Intermediate** | JDK Migration | Legacy JDK to Latest (1.6, 1.8, 21) |
 | **Hard** | Advanced System | Apache Tika, Server Management, Design Pattern |
 | ***Actually Learned*** | Basics, Hard(95%), Intermediate(50%) | Server Installation & Setup, Legacy Programming, Design Pattern, Apache Tika |
+
+```diff
+! It was a hard time struggling with Java 1.6-1.8.
++ Pros: Code is explicit.
+- Cons: Code lines are too verbose. Search Engine automatically filters old Java lectures.
+! Conclusion: It is inevitable to work with legacies, but be aware of being a legacy itself.
+```
 
 ```bash
 ~ $ #################>== [90% Done]
@@ -93,28 +100,48 @@ uint64_t next_step(uint64_t n) {
 ! Cons: What is a limitation? And what can be enhanced further?
 ```
 
+### Internship Projects
+- Legacy System for Java 1.8 to Latest Spring Boot 4.x Application
+- Origin: "Java 1.8, Spring+MyBatis+Legacy PostgreSQL" Keywords given from Internship progress
+- Stack: Java, Maven
+- Pros: Explicit Code, Small LOC per each source file
+- Cons: Verbose Code, Dirty Source Tree, Fragmented Service Requirements per each repository
+![Spring Boot Link](https://github.com/gg582/file-mime-checker)
+![Legacy Spring+MyBatis Link](https://github.com/gg582/spring-development-practice)
+![Legacy Java+Legacy BouncyCastle](https://github.com/gg582/encrymania)
+
+*Personally, I don't think that the organization should stick to Java 1.6-1.8 in any purposes in 2026. That's the problem of economics, not a technology.*
+
 ### LibTTAK
 - Consistent, Predictable, and Safe Memory Model for Pure C
 - Origin: Local prototype for huge legacy style software's RSS footprint enhancement(Such as SSH-Chatter)
 - Stack: C
+- Pros: Predictable RSS consumption, Deterministic GC cycle
+- Cons: Verbose Memory Manager calls, An isolated ecosystem
 - [Link](https://github.com/religiya-serdtsa/libttak)
 
 ### Nanox
 - Minimalistic, Modern Interpertation of UEmacs/PK
 - Origin: Personal Interest about Remote Server Environment
-- Stack: C, Legacy, ncurses
+- Stack: C, Legacy C Refactoring(GOD Architecture), ncursesw(UI Modernization)
+- Pros: Eye-candy Emacs fork, Ultra-lightweight
+- Cons: Dirty, legacy-style terminal cursor management
 - [Link](https://github.com/gg582/nanox)
 
 ### DevOpsPlayground
 - Reproducible Kubernetes cluster/service tooling (Helm/Ansible/Shell)
 - Origin: Cloud Experiment & Management from **Daegu Univ. MoNet**
 - Stack: Kubernetes, Helm, Ansible, Shell
+- Pros: Reproducible Environment
+- Cons: No proper directions about ACME Service Port Forwarding, No proper directions about setting up domains to Public IPs
 - [Link](https://github.com/gg582/devopsplayground)
 
 ### IncuSpeed
 - Incus container manager (Python GUI + Go secure daemon)
 - Origin: *Discarded prototype* from **Daegu Univ. MoNet**
-- Stack: Python, Go, Incus
+- Stack: Python(End-User Application in KivyMD), Go(Back-end, Incus Abstraction Layer), Incus, Bash(Installer)
+- Pros: Reproducible Clean Incus Image
+- Cons: Many of Incus features can be reproduced by Docker Compose(except Init-level virtualization), LXC is still prominent
 - [Module](https://github.com/gg582/linux_virt_unit)
 - [Application](https://github.com/gg582/incuspeed)
 
@@ -122,11 +149,15 @@ uint64_t next_step(uint64_t n) {
 - Kubernetes-integrated remote car control system (C motor driver + Go-based deployment)
 - Origin: **Daegu Univ. MoNet**
 - Stack: C, Go, Shell, Kubernetes
+- Pros: Idea Sketch, Network Research, Brain Storming Result
+- Cons: No Internal Proposals could be copied outside of a lab
 - [Link](https://github.com/gg582/remotecarfrommonet)
 
 ### Linux-Mountain
 - Linux kernel/networking tweaks for more predictable latency (BBR / ECMP / NAPI experiments)
 - Origin: **Kernel Experiment**
+- Pros: High Compatibility with Standard Linux Kernel
+- Cons: Unpredictable patterns when connected to multi-node clusters with a standard kernel
 - Stack: C, Linux kernel
 - [Link](https://github.com/gg582/linux-mountain)
 
@@ -134,20 +165,26 @@ uint64_t next_step(uint64_t n) {
 - TUI-based BBS/chat server over SSH/TELNET
 - Origin: **SSH-Chat, Discord, KakaoTalk**
 - Stack: C, Linux
+- Pros: Looks cool and 90's retro vive
+- Cons: This is not cool in 2020s
 - [Link](https://github.com/gosuda/ssh-chatter)
 
 ### AvianRaptorNet
 - Tiny image classifier inspired by avian tectofugal/thalamofugal visual pathways
 - Origin: Machine Learning Lecture from Daegu Univ.(Professor Lee Miran), *Ornithology*
 - Stack: PyTorch, Python
+- Pros: Ultra-lightweight
+- Cons: Low Proofs
 - [Link](https://github.com/gg582/avianraptornet)
 
 ---
 
 ### Margo(for fun)
-- Custom, Cute, Moe. A Brand-new language
+- Custom, Cute, Moe. A Brand-new C dialect
 - Origin: **Just for fun**
 - Stack: C, Margo(its own)
+- Pros: Strong Matrix Functions, Clean Grammar
+- Cons: A grammar is too isolated
 - [Link](https://github.com/religiya-serdtsa/margo)
 
 ---
