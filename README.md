@@ -147,7 +147,7 @@ uint64_t next_step(uint64_t n) {
 - Easy Web Development Suite for Pure C
 - Origin: **Why can't we invent Flask for C**
 - Stack: C
-- Pros: Easy AI-driven development, Fast MVP reproduction
+- Pros: Simple Calls, Easy API, Fast MVP reproduction. AI-friendly and predictable naming convention
 - Cons: No Implementation for HTTP/2, Implicit code lines
 - [Link](http://github.com/religiya-serdtsa/cwist)
 
