@@ -7,6 +7,17 @@ Currently working on legacy Java environments (OpenJDK 8) as part of my internsh
 
 *3-month internship at Metabuild Co. (March 3 - June 2)*
 
+## Highlight
+
+- IncuSpeed — reproducible container environment manager (Python + Go + Incus)  
+  → Practical experience in building and managing deployable test environments
+
+- Linux-Mountain — Linux kernel and networking tuning for predictable latency (BBR, ECMP, NAPI)  
+  → Hands-on experience with performance optimization at the kernel and network layer
+
+- DevOpsPlayground — reproducible Kubernetes cluster and service setup (Helm, Ansible)  
+  → Infrastructure-as-Code based cluster provisioning and automation experience
+
 ## Skills
 
 - Go
