@@ -106,9 +106,9 @@ uint64_t next_step(uint64_t n) {
 - Stack: Java, Maven, Spring Boot, MyBatis, Apache Tika, PostgreSQL, BountyCastle, JPA
 - Pros: Explicit Code, Small LOC per each source file
 - Cons: Verbose Code, Verbose & Deep Source Tree, Fragmented Service Requirements per each repository
-[Spring Boot Link](https://github.com/gg582/file-mime-checker)
-[Legacy Spring+MyBatis Link](https://github.com/gg582/spring-development-practice)
-[Legacy Java+Legacy BountyCastle](https://github.com/gg582/encrymania)
+- [Spring Boot Link](https://github.com/gg582/file-mime-checker)
+- [Legacy Spring+MyBatis Link](https://github.com/gg582/spring-development-practice)
+- [Legacy Java+Legacy BountyCastle](https://github.com/gg582/encrymania)
 
 *Personally, I don't think that the organization should stick to Java 1.6-1.8 in any purposes in 2026. That's the problem of economics, not a technology.*
 
