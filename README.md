@@ -135,6 +135,14 @@ uint64_t next_step(uint64_t n) {
 - Cons: Verbose Memory Manager calls, An isolated ecosystem
 - [Link](https://github.com/religiya-serdtsa/libttak)
 
+### ChoiCrypt
+- An AES-256 variant featuring a shuffle inspired by Choi Seok-jeong's Hexagonal Tortoise problem
+- Origin: Cryptography lecture from Daegu Univ.(Professor Choi Yong-ho)
+- Stack: C
+- Pros: It is very difficult for an attacker to predict if it involves shuffling beyond the S-Box or cryptographic tuning.
+- Cons: This is a custom encryption which is quite heavy. It is only for an experiment, after all
+- [Link](https://github.com/gg582/choicrypt)
+
 ### Nanox
 - Minimalistic, Modern Interpertation of UEmacs/PK
 - Origin: Personal Interest about Remote Server Environment
