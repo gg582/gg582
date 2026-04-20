@@ -153,7 +153,7 @@ uint64_t next_step(uint64_t n) {
 
 ### Baboship
 - Easy EMS Parcel Shipping Prediction
-- Origin: **My Russian Alarm Clock from Ukraine is not arriving**
+- Origin: **My Soviet 11-jewels Alarm Clock from Ukraine is not arriving**
 - Stack: C, CWIST(its own), WASM
 - Pros: 100% AI-driven MVP
 - Cons: No prediction supported for sea parcel service
