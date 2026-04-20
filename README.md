@@ -213,7 +213,7 @@ uint64_t next_step(uint64_t n) {
 * 한계: 현대의 분산 커뮤니케이션 환경에서는 적용 가능성이 제한적
 * [링크](https://github.com/gosuda/ssh-chatter)
 * 텔넷 2323, SSH 22 포트
-* ![웹터미널(내려갈수있음](https://retro-chatroom.gosunuts.xyz/)
+* [웹터미널(내려갈수있음](https://retro-chatroom.gosunuts.xyz/)
 
 ### AvianRaptorNet
 
