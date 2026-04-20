@@ -25,7 +25,7 @@ Many of my current projects are just for fun; so it does not match with my inter
 | **Basics** | Legacy Env. | OpenJDK 8, PostgreSQL 9.6 |
 | **Intermediate** | JDK Migration | Legacy JDK to Latest (1.6, 8, 21) |
 | **Hard** | Advanced System | Apache Tika, Server Management, Design Pattern |
-| ***~$*** | <u>*What*</u> | <u>*I've Done*</u> |
+| ***~$*** | --- | TBL1 |
 | *Actually Learned* | Basics, Hard(95%), Intermediate(50%) | Server Installation & Setup, Legacy Programming, Design Pattern, Apache Tika |
 
 ```bash
