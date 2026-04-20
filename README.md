@@ -1,9 +1,10 @@
 # Hi, I'm Lee Yunjin (@gg582)
 
-I'm doing an internship from Metabuild Co.
 I am interested in Unix/Linux system management, automation scripting, container orchestration, and Go-based development.
 Currently learning Java(OpenJDK 8) to follow up with my internship.
 Many of my current projects are just for fun; so it does not match with my internship track.
+
+*I'm doing a 3-month internship from Metabuild Co.*
 
 ## Skills
 
