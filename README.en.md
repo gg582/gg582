@@ -3,7 +3,7 @@
 System-level developer focused on Linux, networking, and containerized infrastructure.  
 Experienced in building low-level systems, reproducible environments, and performance-oriented tooling using C and Go.
 
-Currently working on legacy Java environments (OpenJDK 8) as part of my internship, while maintaining strong interest in kernel-level optimization and infrastructure design.
+Currently working on legacy Java environments (OpenJDK 8) and Document OCR DB Management as part of my internship, while maintaining strong interest in kernel-level optimization and infrastructure design.
 
 *3-month internship at Metabuild Co. (March 3 - June 2)*
 
