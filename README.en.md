@@ -110,7 +110,7 @@ uint64_t next_step(uint64_t n) {
 
 ### Internship Project
 
-* Transitioning Java 1.8-based legacy system to modern Spring Boot 4.x application structure
+* Learning Java 1.8-based legacy system, Modern Spring Boot 4.x application structure
 * Background: Started based on keywords "Java 1.8, Spring+MyBatis+Legacy PostgreSQL" during the internship
 * Tech Stack: Java, Maven, Spring Boot, MyBatis, Apache Tika, PostgreSQL, BouncyCastle, JPA
 * Strength (Pros): Explicit code, small LOC per each source file
@@ -124,6 +124,12 @@ uint64_t next_step(uint64_t n) {
 *Refactoring legacy architecture requires a structural analysis of code paths, data flows, and system behavior first, followed by targeted improvements based on observable and measurable characteristics.*
 
 *Verbose and loosely organized code increases cognitive load and decreases maintainability, making structural refactoring essential for long-term system evolution.*
+
+* Microsoft Excel Format with VBA(*.xlsm) to Go+Javascript-based Web-App
+* Background: Started work based on given sheets
+* Tech Stack: Legacy Migration
+* Strength (Pros): Golang-based lightweight Web Server
+* Limitation (Cons): The app is for educational purpose.
 
 ### Part 1. Infrastructure & Edge Computing
 
