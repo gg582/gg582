@@ -1,4 +1,3 @@
-```markdown
 # Hi, I'm Lee Yunjin (@gg582)
 
 [Korean README](https://github.com/gg582/gg582/blob/main/README.md)
@@ -320,4 +319,3 @@ uint64_t next_step(uint64_t n) {
 
 * [gg582@proton.me](mailto:gg582@proton.me)
 * [gzblues61@daum.net](mailto:gzblues61@daum.net)
-```
