@@ -253,7 +253,7 @@ uint64_t next_step(uint64_t n) {
 * 배경: **왜 C용 Flask는 만들 수 없는가**
 * 기술 스택: C
 * 강점: 단순한 호출, 쉬운 API, 빠른 MVP 재현, AI 친화적이고 예측 가능한 네이밍
-* 한계: HTTP/2 미구현, 암묵적인 코드 라인 존재
+* 한계: HTTP/3 미구현, 암묵적인 코드 라인 존재
 * [링크](http://github.com/religiya-serdtsa/cwist)
 
 ### Baboship
