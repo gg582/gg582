@@ -275,7 +275,7 @@ uint64_t next_step(uint64_t n) {
 * 강점: 100% AI 기반 MVP
 * 한계: 사용자를 붙잡아둘 만큼 게임 기능과 흡인력이 충분하지 않음
 * [링크](https://github.com/gg582/ceversi)
-* [웹사이트](https://ceversi.korokorok.com)
+* [웹사이트](https://ceversi.gosunuts.xyz)
 
 ### Nanox
 
