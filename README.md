@@ -16,7 +16,7 @@ C와 Go를 사용하여 로우레벨 시스템, 재현 가능한 환경, 성능 
 
 - **Linux-Mountain** — 예측 가능한 지연시간을 위한 Linux 커널 및 네트워크 튜닝 (BBR, ECMP, NAPI)  
   → 커널 및 네트워크 계층에서 직접 성능을 최적화한 실전 경험
-  [블로그](https://gg582.github.io/devnote/)
+  [블로그](https://gg582.github.io/network/)
 
 - **DevOpsPlayground** — 재현 가능한 Kubernetes 클러스터 및 서비스 구성 (Helm, Ansible)  
   → IaC 기반 클러스터 프로비저닝 및 자동화 경험
