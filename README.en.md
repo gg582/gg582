@@ -5,7 +5,7 @@
 I am a system-level developer focusing on Linux, networking, and container-based infrastructure.
 I have experience in building low-level systems, reproducible environments, and performance-oriented tools using C and Go.
 
-Currently, as part of my internship, I am dealing with legacy Java environments (OpenJDK 8) and document OCR DB analysis, while also maintaining a steady interest in kernel-level optimization and infrastructure design.
+As part of my internship, I dealed with legacy Java environments (OpenJDK 8) and document OCR DB analysis, while also maintaining a steady interest in kernel-level optimization and infrastructure design.
 
 *Performing a 3-month internship at Metabuild (March 3 - June 2)*
 
@@ -217,7 +217,7 @@ uint64_t next_step(uint64_t n) {
 * Limitation (Cons): Limited applicability in modern distributed communication environments
 * [Link](https://github.com/gosuda/ssh-chatter)
 * Telnet port 2323, SSH port 22
-* [Web Terminal (May be down)](https://retro-chatroom.gosunuts.xyz/)
+* [Web Terminal (May be down)](https://retro-chatroom.kakashit.org)
 
 ### AvianRaptorNet
 
