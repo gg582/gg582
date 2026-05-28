@@ -30,7 +30,11 @@ C와 Go를 사용하여 로우레벨 시스템, 재현 가능한 환경, 성능 
 - C/C++
 - RIOT OS
 - Software Optimization
-- Java
+- Java/Spring Boot
+- PyTorch
+- Python 3
+- PyGObject
+- Numpy
 
 ## 인턴십 트랙
 
@@ -61,7 +65,7 @@ C와 Go를 사용하여 로우레벨 시스템, 재현 가능한 환경, 성능 
 * 2023-2025 졸업 작품 준비 (IncuSpeed)
 * 2025 정보처리기사, 하나 소셜벤처 유니버시티
 * 2026.03.03-2026.06.02 메타빌드 인턴십
-* 2026-06~        (?)
+* 2026.06~        (?)
 
 ## 관심 분야
 
@@ -303,7 +307,7 @@ uint64_t next_step(uint64_t n) {
 
 ### 자격증
 
-* 정보처리기사 합격 (대한민국)
+* 정보처리산업기사 합격 (대한민국)
 
 ![IndustrialEngineer](./industrial_engineer.png)
 
