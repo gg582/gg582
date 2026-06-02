@@ -36,7 +36,7 @@ As part of my internship, I dealed with legacy Java environments (OpenJDK 8) and
 | Difficulty | Focus Area | Tech Stack |
 | :--- | :--- | :--- |
 | **Basic** | Legacy Environment | OpenJDK 8, PostgreSQL 9.6 |
-| **Intermediate** | JDK Migration | Legacy JDK → Latest JDK (1.6, 1.8, 21), Legacy Visual Basic → Go (Using company-provided Claude Code) |
+| **Intermediate** | JDK Migration | Legacy JDK → Latest JDK (1.6, 1.8, 21), Legacy Visual Basic → Go → OpenJDK 21 (Using company-provided Claude Code) |
 | **Advanced** | Advanced System | Apache Tika, Server Management, Design Patterns, OCR Data Filtering & Integrity Verification in PostgreSQL |
 | ***Actually Learned*** | Basic, Advanced (95%), Intermediate (50%) | Server Installation & Deployment, Legacy Programming, Design Patterns, Apache Tika, SQL Writing |
 
