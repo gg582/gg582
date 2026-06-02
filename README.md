@@ -41,7 +41,7 @@ C와 Go를 사용하여 로우레벨 시스템, 재현 가능한 환경, 성능 
 | 난이도 | 중점 영역 | 기술 스택 |
 | :--- | :--- | :--- |
 | **기초** | 레거시 환경 | OpenJDK 8, PostgreSQL 9.6 |
-| **중급** | JDK 마이그레이션 | 레거시 JDK → 최신 JDK (1.6, 1.8, 21), 레거시 Visual Basic → Go(회사 지급 Claude Code 활용) |
+| **중급** | JDK 마이그레이션 | 레거시 JDK → 최신 JDK (1.6, 1.8, 21), 레거시 Visual Basic → Go → OpenJDK 21 (회사 지급 Claude Code 활용) |
 | **고급** | 고급 시스템 | Apache Tika, 서버 관리, 디자인 패턴, PostgreSQL의 OCR 데이터 필터링 및 무결성 검증 |
 | ***실제로 익힌 내용*** | 기초, 고급(95%), 중급(50%) | 서버 설치 및 구축, 레거시 프로그래밍, 디자인 패턴, Apache Tika, SQL문 작성 |
 
