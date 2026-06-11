@@ -20,6 +20,7 @@ C와 Go를 사용하여 로우레벨 시스템, 재현 가능한 환경, 성능 
 
 - **DevOpsPlayground** — 재현 가능한 Kubernetes 클러스터 및 서비스 구성 (Helm, Ansible)  
   → IaC 기반 클러스터 프로비저닝 및 자동화 경험
+  [Repo](https://github.com/gg582/devopsplayground)
 
 ## 기술 스택
 
@@ -167,6 +168,7 @@ uint64_t next_step(uint64_t n) {
 * 기술 스택: C, Go, Shell, Kubernetes
 * 강점: 물리 장치 제어와 Kubernetes 기반 배포 및 네트워킹 실험의 통합
 * 한계: 연구실 외부로 내부 제안서를 반출할 수 없었고, GitLab 서버 유실로 인해 Javascript 기반의 인지 친화적 컨트롤러 대시보드(by @alisherfw)가 제외됨
+* [링크](https://github.com/gg582/remoteCarFromMonet)
 
 ### Part 2. 시스템 최적화
 
