@@ -292,6 +292,15 @@ uint64_t next_step(uint64_t n) {
 * 한계: 지저분한 레거시 스타일 터미널 커서 관리
 * [링크](https://github.com/gg582/nanox)
 
+### Gozik
+
+* FFMPEG 기반 미니멀리스트 GTK 음악/CD 플레이어
+* 배경: **쓸 만한 CD 플레이어도, 스트리밍 플러그인도 없어서
+* 기술 스택: Go, Python 3, Linux
+* 강점: 라몬즈부터 "이단아" 예고르 레토프까지, 세계 음악을 위한 스트리밍 플러그인(gozik-yt-music)
+* 한계: 내 손에만 편함
+* [링크](https://github.com/gosuda/gozik)
+
 ---
 
 ## 활동 및 자격
