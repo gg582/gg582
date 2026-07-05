@@ -74,7 +74,7 @@ I am an open-source maintainer and contributor focusing on Linux system programm
   - **Epoch Reclamation (EBR)**: A thread-safe, lock-free memory reclamation layer without global pauses.
   - **Concurrency Model**: Implements task thread pools and async primitives like Future / Promise.
 
-### 💬 [SSH-Chatter](https://github.com/gosuda/ssh-chatter) (Gosuda)
+### 💬 [SSH-Chatter](https://github.com/gosuda/ssh-chatter) (Gosuda, Maintainer)
 **Modern C-Based SSH Chat Server & BBS Terminal**
 - **Introduction**: A modern C-based SSH/Telnet BBS chat server ported and extended from Go's `ssh-chat` to C. It offers a 90s retro-style view while internally incorporating a modern security and extension framework.
 - **Key Technologies**:

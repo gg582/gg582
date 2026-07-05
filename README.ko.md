@@ -74,7 +74,7 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
   - **Epoch Reclamation (EBR)**: global pause가 발생하지 않는 스레드 안전 비차단(lock-free) 메모리 회수 레이어.
   - **동시성 모델**: 태스크 스레드 풀 및 Future / Promise 비동기 프리미티브 구현.
 
-### 💬 [SSH-Chatter](https://github.com/gosuda/ssh-chatter) (Gosuda)
+### 💬 [SSH-Chatter](https://github.com/gosuda/ssh-chatter) (Gosuda, Maintainer)
 **Modern C-Based SSH Chat Server & BBS Terminal**
 - **소개**: Go 언어의 `ssh-chat`을 C 언어로 포팅 및 확장한 모던 C 기반 SSH/Telnet BBS 채팅 서버. 90년대 레트로 감성의 뷰를 제공하면서 내부적으로는 현대적인 보안 및 확장 프레임워크를 갖추고 있습니다.
 - **핵심 기술**:
