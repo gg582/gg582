@@ -1,327 +1,116 @@
-# Hi, I'm Lee Yunjin (@gg582)
+# Open Source Developer - @gg582
 
-[Korean README](https://github.com/gg582/gg582/blob/main/README.md)
-
-I am a system-level developer focusing on Linux, networking, and container-based infrastructure.
-I have experience in building low-level systems, reproducible environments, and performance-oriented tools using C and Go.
-
-As part of my internship, I dealed with legacy Java environments (OpenJDK 8) and document OCR DB analysis, while also maintaining a steady interest in kernel-level optimization and infrastructure design.
-
-*Performing a 3-month internship at Metabuild (March 3 - June 2)*
-
-## Key Projects
-
-- **IncuSpeed** — Reproducible container environment manager (Python + Go + Incus)
-  → Practical experience in building and managing actual deployable test environments
-
-- **Linux-Mountain** — Linux kernel and network tuning for predictable latency (BBR, ECMP, NAPI)
-  → Hands-on experience in directly optimizing performance at the kernel and network layers
-
-- **DevOpsPlayground** — Reproducible Kubernetes cluster and service configuration (Helm, Ansible)
-  → Experience in IaC-based cluster provisioning and automation
-
-## Tech Stack
-
-- Go
-- Cloud Computing
-- Linux
-- FreeBSD
-- C/C++
-- RIOT OS
-- Software Optimization
-- Java
-
-## Internship Track
-
-| Difficulty | Focus Area | Tech Stack |
-| :--- | :--- | :--- |
-| **Basic** | Legacy Environment | OpenJDK 8, PostgreSQL 9.6 |
-| **Intermediate** | JDK Migration | Legacy JDK → Latest JDK (1.6, 1.8, 21), Legacy Visual Basic → Go → OpenJDK 21 (Using company-provided Claude Code) |
-| **Advanced** | Advanced System | Apache Tika, Server Management, Design Patterns, OCR Data Filtering & Integrity Verification in PostgreSQL |
-| ***Actually Learned*** | Basic, Advanced (95%), Intermediate (50%) | Server Installation & Deployment, Legacy Programming, Design Patterns, Apache Tika, SQL Writing |
-
-```diff
-! Experience: Experience adapting to legacy environments by developing across various JDK versions (1.6–1.8–21)
-+ Strength: Can explicitly control system behavior and ensure compatibility with legacy stacks
-- Limitation: Code tends to become verbose and structures grow deep due to legacy conventions
-! Insight: Handling legacy systems requires a balance between maintainability, compatibility, and modernization
-```
-
-```bash
-~ $ #################>== [90% Done]
-```
+I am an open-source maintainer and contributor focusing on Linux system programming, high-performance network tunneling, Text User Interface (TUI), and minimalist tool development. I am active as a member of the **Cubrid** and **Gosuda** open-source communities.
 
 ---
 
-# History
+## 🏛️ Organizations & Commits
 
-* 2021-2022 Daegu University **MoNet**
-* 2022-2023 Daegu University **RESL**
-* 2023-2025 Graduation Project Preparation (IncuSpeed)
-* 2025 Industrial Engineer Information Processing, Hana Social Venture University
-* 2026.03.03-2026.06.02 Metabuild Internship
-* 2026-06~ (?)
+### [Cubrid](https://github.com/CUBRID) (Member)
+- Participate in the enterprise-grade open-source RDBMS ecosystem, analyzing open-source database technologies and multi-client integration environments.
 
-## Areas of Interest
-
-* Linux Systems & Networking
-  * Kernel-level tuning
-* Automation / IaC (Ansible, Helm, Kubernetes)
-* Go Services (Daemon, CLI, Tools, Web Development)
-* C Programming
-  * Legacy Refactoring
-  * System Optimization
-  * C/C++ Lightweight Web Backend
-
-```c
-/*
- * Hierarchical execution flow designed to minimize branch prediction latency
- * Pure C logic utilizing IEEE 754 NaN space for pointer tagging
- */
-#define BIGINT_TAG_MASK 0xFFF8000000000000ULL
-#define EXPONENT_MASK   0x7FF0000000000000ULL
-
-uint64_t next_step(uint64_t n) {
-    // First, check if it is `intxx_t`
-    if (!(n & 0xC000000000000000ULL)) {
-        // If it is an integer, return n << 1, which is identical to (n * 2)
-        return n << 1;
-    }
-
-    // Check if it is a Big Integer
-    // XOR is advantageous for quickly comparing mask bits
-    if (((n ^ BIGINT_TAG_MASK) & BIGINT_TAG_MASK) == 0) {
-        return bigint_mul2(n);
-    }
-
-    // Perform 'double *= 2' by increasing exponent bits
-    // Keeps data inside General Purpose Registers to avoid FPU stalls
-    uint64_t exp_inc = n + (1ULL << 52);
-    if ((exp_inc & EXPONENT_MASK) != EXPONENT_MASK) {
-        return exp_inc;
-    }
-
-    // Safely promote the result to big int type and return
-    return promote_to_bigint_and_mul2(n);
-}
-```
-
-## Key Projects
-
-### Internship Project
-
-* Learning Java 1.8-based legacy system, Modern Spring Boot 4.x application structure
-* Background: Started based on keywords "Java 1.8, Spring+MyBatis+Legacy PostgreSQL" during the internship
-* Tech Stack: Java, Maven, Spring Boot, MyBatis, Apache Tika, PostgreSQL, BouncyCastle, JPA
-* Strength (Pros): Explicit code, small LOC per each source file
-* Limitation (Cons): Verbose code, deep and complex source tree, fragmented service requirements per repository
-* [Spring Boot Link](https://github.com/gg582/file-mime-checker)
-* [Legacy Spring+MyBatis Link](https://github.com/gg582/spring-development-practice)
-* [Legacy Java+Legacy BouncyCastle](https://github.com/gg582/encrymania)
-
-*Handling legacy Java environments (1.6–1.8) allowed me to actually experience realistic constraints such as compatibility and long-term maintenance.*
-
-*Refactoring legacy architecture requires a structural analysis of code paths, data flows, and system behavior first, followed by targeted improvements based on observable and measurable characteristics.*
-
-*Verbose and loosely organized code increases cognitive load and decreases maintainability, making structural refactoring essential for long-term system evolution.*
-
-* Microsoft Excel Format with VBA(*.xlsm) to Go+Javascript-based Web-App
-* Background: Started work based on given sheets
-* Tech Stack: Legacy Migration
-* Strength (Pros): Golang-based lightweight Web Server
-* Limitation (Cons): The app is for educational purpose.
-
-### Part 1. Infrastructure & Edge Computing
+### [Gosuda](https://github.com/gosuda) (Member / Co-maintainer)
+- Co-maintain and release lightweight terminal infrastructure, cryptography, and high-performance network relays.
 
 ---
 
-### DevOpsPlayground
+## 🛠️ Main Open Source Projects
 
-* Reproducible Kubernetes cluster/service toolset (Helm/Ansible/Shell)
-* Background: Experience in cloud experimentation and management conducted at **Daegu University MoNet**
-* Tech Stack: Kubernetes, Helm, Ansible, Shell
-* Strength (Pros): Reproducible environment
-* Limitation (Cons): Lack of proper guidance on ACME service port forwarding, lack of setup guide for connecting domains to public IPs
-* [Link](https://github.com/gg582/devopsplayground)
+### 📡 [Portal](https://github.com/gosuda/portal-tunnel) (Gosuda-Tunnel)
+**Self-Hostable Relay Tunnel for Localhost**
+- **Introduction**: A trustless, high-performance relay tunnel engine that exposes localhost services to the public (e.g., agent web) without port forwarding or configuring firewall rules.
+- **Key Technologies**:
+  - **E2E Tenant TLS & ECH**: Terminates TLS directly at the user endpoint so the relay server cannot decrypt the raw data, and applies ECH (Encrypted Client Hello) to prevent SNI exposure.
+  - **MITM Detection**: Includes a self-verifying probe that compares TLS keying material (Exporter) on both ends to defeat man-in-the-middle attacks and relay-side decryption attempts.
+  - **Multi-Hop Relay**: Implements an anonymous routing structure that chains three or more relay nodes to hide sender and receiver information per node.
+  - **x402 Sui USDC Payment**: Provides a gateway that can require USDC payment via the Sui blockchain when making API calls.
+- **Usage**:
+  ```bash
+  # 1. Install (macOS / Linux)
+  curl -fsSL https://github.com/gosuda/portal-tunnel/releases/latest/download/install.sh | bash
+  
+  # 2. Expose local port to the public (provides a random public domain by default)
+  portal expose 3000
+  
+  # 3. Expose via a custom relay server
+  portal expose 3000 --name myapp --relays https://portal.example.com --discovery=false
+  
+  # 4. Enable multi-hop (anonymous routing)
+  portal expose 3000 --multi-hop-depth 3
+  ```
 
-### IncuSpeed
+### 🌐 [CWIST](https://github.com/religiya-serdtsa/cwist) (Maintainer)
+**Pure C Web Development Suite (Flask alternative for C)**
+- **Introduction**: An intuitive, lightweight web development suite for pure C, aiming to be a "Flask for C". It provides multi-protocol support securely and manageably based on BoringSSL, OpenSSL, lsquic, etc.
+- **Key Technologies**:
+  - **HTTP/3 & WebTransport Support**: Binds the lsquic library to implement a high-performance server-side WebTransport session handling QUIC and bidirectional/unidirectional streams.
+  - **Post-Quantum TLS**: Supports clean security configurations that force hybrid X25519MLKEM768 and exclude legacy TLS by calling `cwist_app_use_pqc_layer(app, true)`.
+  - **Zero-copy Reactor**: Configures C100K reactor and lock-free queues based on io_uring / epoll / kqueue.
+- **Usage**:
+  ```c
+  #include <cwist/app.h>
 
-* Incus container manager (Python GUI + Go secure daemon)
-* Background: *Discarded prototype* that was conducted at **Daegu University MoNet**
-* Tech Stack: Python (Final user application in KivyMD), Go (Backend, Incus abstraction layer), Incus, Bash (Installer)
-* Strength (Pros): Reproducible clean Incus image environment
-* Limitation (Cons): Many Incus features can be reproduced with Docker Compose (excluding init-level virtualization), LXC family still has an entry barrier
-* [Module](https://github.com/gg582/linux_virt_unit)
-* [Application](https://github.com/gg582/incuspeed)
+  static void hello(cwist_http_request *req, cwist_http_response *res) {
+      (void)req;
+      cwist_sstring_assign(res->body, "Hello from CWIST!");
+  }
 
-### RemoteCarFromMonet
+  int main(void) {
+      cwist_app *app = cwist_app_create();
+      cwist_app_use_db(app, ":memory:");
+      cwist_app_use_pqc_layer(app, true);
+      cwist_app_get(app, "/", hello);
+      cwist_app_listen(app, 8080);
+      cwist_app_destroy(app);
+      return 0;
+  }
+  ```
 
-* Kubernetes-based remote vehicle control system combining physical device drivers and distributed deployment
-* Background: **Daegu University MoNet**
-* Tech Stack: C, Go, Shell, Kubernetes
-* Strength (Pros): Integration of physical device control with Kubernetes-based deployment and networking experiments
-* Limitation (Cons): Internal proposals could not be taken outside the laboratory, and the cognitively friendly controller dashboard (by @alisherfw) based on Javascript was excluded due to the loss of the GitLab server
+### 💾 [LibTTAK](https://github.com/religiya-serdtsa/libttak) (Maintainer)
+**Predictable & Safe Custom Memory Allocator & Concurrency Runtime for C**
+- **Introduction**: A deterministic memory control framework and concurrency runtime created to prevent common limitations of long-running C applications (e.g., heap fragmentation, allocator contention across threads).
+- **Key Technologies**:
+  - **Generational Arena**: An arena system that overcomes heap fragmentation and cleans up large allocation blocks at once using Generation boundaries.
+  - **Epoch Reclamation (EBR)**: A thread-safe, lock-free memory reclamation layer without global pauses.
+  - **Concurrency Model**: Implements task thread pools and async primitives like Future / Promise.
 
-### Part 2. System Optimization
+### 💬 [SSH-Chatter](https://github.com/gosuda/ssh-chatter) (Gosuda)
+**Modern C-Based SSH Chat Server & BBS Terminal**
+- **Introduction**: A modern C-based SSH/Telnet BBS chat server ported and extended from Go's `ssh-chat` to C. It offers a 90s retro-style view while internally incorporating a modern security and extension framework.
+- **Key Technologies**:
+  - **BBS and various TUI commands**: Internally implements modular structures such as a BBS (/bbs command supporting sorting and search), RSS reader (/rss), and ASCII art canvas (/asciiart).
+  - **AI Moderation & Security**: An automated toxic content filtering pipeline utilizing the Gemini API and local Ollama backends.
+  - **Networking & Morse Relay**: Provides amateur HAM radio integration based on the Binkp protocol specification.
+  - **Memory Optimization**: Employs an internal custom Epoch GC (`sshc_epoch_reclaim`) and memory management techniques.
+- **Usage**:
+  ```bash
+  # 1. Build (runs make in a POSIX environment)
+  make
+  
+  # 2. Run (starts the daemon with port, host key path, etc.)
+  ./ssh-chatter -a 0.0.0.0 -p 2222 -k ./host_keys
+  
+  # 3. Connect via SSH
+  ssh nickname@your-ip -p 2222
+  ```
 
----
+### 📝 [Nanox](https://github.com/gg582/nanox) (Maintainer)
+**UEmacs/PK Modernization & Minimalist Terminal Text Editor**
+- **Introduction**: An ultra-lightweight terminal editor refactored and optimized for modern remote environments, based on the classic text editor MicroEmacs (UEmacs).
+- **Key Technologies**:
+  - **Legacy C Refactoring**: Modularizes and restructures the spaghetti-like legacy codebase (God Architecture).
+  - **ncursesw Modernization**: Improves unicode (UTF-8) support and multiple view management tailored for modern terminal environments.
+  - **Enhanced Security**: Introduces safety measures for running shell commands within the editor via configuration variables `$confirmshell` and `$makebackup`.
 
-### LibTTAK
-
-* Consistent, predictable, and safe memory model for pure C
-* Tech Stack: C
-* Strength (Pros): Predictable RSS usage and deterministic GC behavior
-* Background: Local prototype for improving the RSS footprint of large legacy-style software like SSH-Chatter
-* Limitation (Cons): Verbose memory manager calls, isolated ecosystem
-* [Link](https://github.com/religiya-serdtsa/libttak)
-
-### Linux-Mountain
-
-* Linux kernel/network tuning for more predictable latency (BBR / ECMP / NAPI experiments)
-* Background: **Kernel Experiment**
-* Strength (Pros): High compatibility with the standard Linux kernel
-* Limitation (Cons): Unpredictable patterns may occur when connected to multi-node clusters with the standard kernel
-* Tech Stack: C, Linux kernel
-* [Link](https://github.com/gg582/linux-mountain)
-
-### RIOTOSMiniCarImplementation
-
-* A vehicle that avoids obstacles while driving according to rules
-* Background: RIOT OS experiment conducted at **Daegu University RESL**
-* Tech Stack: C, RTOS
-* Strength (Pros): RIOT OS-based GPIO peripheral management, driving patterns inspired by **entomology (especially ants)**
-* Limitation (Cons): Rule-based navigation without adaptive or learning functions
-* [Link](https://github.com/gg582/RIOTOSMiniCarImplementation)
-
-### Raspberry Pi Raspbot
-
-* Device drivers and test application suite for Yahboom 4WD for Raspberry Pi 4B
-* Background: *Discarded IoT experiments* conducted at **MoNet**
-* Tech Stack: C, Linux Device Driver
-* Strength (Pros): Simplified IOCTL wrapper for I2C chip interaction, comprehensive pin interrupt handler for ultrasonic sensors
-* Limitation (Cons): Absence of direct access / failure to implement low-level CPU-bound machine learning models for the Raspberry Pi camera
-* [Link](https://github.com/gg582/raspberry_pi_raspbot)
-
----
-
-```diff
-+ The following projects focus on experimental system design, low-level control, and custom runtime behavior beyond general production constraints.
-```
-
-### SSH-Chatter
-
-* TUI-based BBS/chat server operating over SSH/TELNET
-* Background: **SSH-Chat, Discord, KakaoTalk**
-* Tech Stack: C, Linux
-* Strength (Pros): Cool 90s retro vibes
-* Limitation (Cons): Limited applicability in modern distributed communication environments
-* [Link](https://github.com/gosuda/ssh-chatter)
-* Telnet port 2323, SSH port 22
-* [Web Terminal (May be down)](https://retro-chatroom.kakashit.org)
-
-### AvianRaptorNet
-
-* Ultra-small image classifier inspired by the tectofugal/thalamofugal visual pathways of birds
-* Background: Daegu University Machine Learning class (Professor Lee Miran), *Ornithology*
-* Tech Stack: PyTorch, Python
-* Strength (Pros): Ultra-lightweight
-* Limitation (Cons): Experimental verification and benchmarking are limited
-* [Link](https://github.com/gg582/avianraptornet)
-
-### Margo (for fun)
-
-* A custom, cute, and moe new C dialect
-* Background: **Just for fun**
-* Tech Stack: C, Margo (Own language)
-* Strength (Pros): Powerful matrix functions, clean syntax
-* Limitation (Cons): Grammar ecosystem is too isolated
-* [Link](https://github.com/religiya-serdtsa/margo)
-
-### ChoiCrypt
-
-* AES-256 variant including a shuffle inspired by Choi Seok-jeong's Hexagonal Tortoise Problem (Ji-Su-Gui-Mun-Do)
-* Background: Daegu University Cryptography class (Professor Choi Yong-ho)
-* Tech Stack: C
-* Strength (Pros): Extremely difficult for an attacker to predict when it involves shuffles or cryptographic tuning beyond the S-Box
-* Limitation (Cons): Heavy custom encryption method and is strictly for experimental use
-* [Link](https://github.com/gg582/choicrypt)
-
-### CWIST
-
-* Easy web development suite for pure C
-* Background: **Why can't we make Flask for C?**
-* Tech Stack: C
-* Strength (Pros): Simple calls, easy API, fast MVP reproduction, AI-friendly and predictable naming
-* Limitation (Cons): HTTP/2 not implemented, presence of implicit code lines
-* [Link](http://github.com/religiya-serdtsa/cwist)
-
-### Baboship
-
-* Easy EMS international mail delivery prediction
-* Background: **Because my Soviet 11-jewel alarm clock coming from Ukraine did not arrive**
-* Tech Stack: C, CWIST (Own), WASM
-* Strength (Pros): 100% AI-based MVP
-* Limitation (Cons): Does not support sea mail delivery prediction
-* [Link](https://github.com/gg582/baboship)
-* [Website](https://gg582.github.io/baboship)
-
-### Ceversi
-
-* Ultra-lightweight Reversi/Othello match website including a virtual betting room
-* Background: **Implementing a ReactJS-like look and feel entirely with C via SSR**
-* Tech Stack: C, CWIST (Own), SQLite
-* Strength (Pros): 100% AI-based MVP
-* Limitation (Cons): Game features and attraction are not sufficient to retain users
-* [Link](https://github.com/gg582/ceversi)
-* [Website](https://ceversi.korokorok.com)
-
-### Nanox
-
-* A minimalistic editor modernizing UEmacs/PK
-* Background: Personal interest in remote server environments
-* Tech Stack: C, Legacy C Refactoring (GOD Architecture), ncursesw (UI Modernization)
-* Strength (Pros): Good-looking Emacs fork, ultra-lightweight
-* Limitation (Cons): Messy legacy-style terminal cursor management
-* [Link](https://github.com/gg582/nanox)
+### 🔌 [Gozik](https://github.com/gosuda/gozik) (Gosuda)
+**FFMPEG-Based Minimalist GTK Audio / CD Player**
+- **Introduction**: A minimalist audio playback daemon and client that supports playing local music files as well as audio streams via streaming plugins.
+- **Key Technologies**:
+  - **gRPC Architecture**: Isolates the lightweight Go backend daemon responsible for playback from the UI layer.
+  - **Streaming Extensibility**: Supports extension plugins (such as `gozik-yt-music`) to fetch external sources like YouTube Music.
 
 ---
 
-## Activities & Qualifications
-
-### Research Participation / Projects
-
-* Participation as a Research Assistant in national R&D projects (**ETRI: 2 cases**, NRF: 4 cases)
-
-![Researches](./certs.png)
-
-### Awards
-
-![Awards](./award.png)
-![Award2](./IT공학대전학생작품경진대회상.png)
-
-### Certification
-
-* Passed Industrial Engineer Information Processing (Republic of Korea)
-
-![IndustrialEngineer](./industrial_engineer.png)
-
-### Education
-
-![edu](./하나금융창업교육.png)
-
----
-
-## Statistics
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=gg582&theme=dark)](https://git.io/streak-stats)
-[![Top Langs](https://github-readme-stats-rouge-rho-81.vercel.app/api/top-langs/?username=gg582&layout=compact&theme=dark&exclude_repo=BaekjoonProblemSolvingCollections,linux-grate-10percent-overclock-test,RIOTOSMiniCarImplementation,CSharp-Arkanoid-based-Project,tk9.0,nanox_rust,simple-html-examples)](https://github.com/anuraghazra/github-readme-stats)
-![Grade](https://github-readme-stats.vercel.app/api?username=gg582&show_icons=true)
-![Total Lines of Code](https://github.com/gg582/allcloc/blob/main/public/banner.svg)
-![Gold II capture before Baekjoon service termination](https://github.com/gg582/gg582/blob/main/%EB%B0%B1%EC%A4%80%EA%B8%B0%EB%A1%9D%EC%84%B1%EC%BA%A1%EC%B3%902026.png?raw=true)
-
----
-
-## Contact
-
-* [gg582@proton.me](mailto:gg582@proton.me)
-* [gzblues61@daum.net](mailto:gzblues61@daum.net)
+## 📬 Contact
+- **Email**: gg582@proton.me
+- **GitHub**: [@gg582](https://github.com/gg582)
