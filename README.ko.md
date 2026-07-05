@@ -43,7 +43,7 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
 **Pure C Web Development Suite (Flask alternative for C)**
 - **소개**: "C언어용 Flask"를 목표로 구축된 직관적이고 가벼운 C 전용 웹 개발 스위트. BoringSSL, OpenSSL, lsquic 등을 기반으로 다중 프로토콜을 안전하고 제어 가능하게 제공합니다.
 - **핵심 기술**:
-  - **HTTP/3 & WebTransport 지원**: lsquic 라이브러리를 바인딩하여 QUIC 및 양방향/단방향 스트림을 다루는 고성능 서버 사이드 WebTransport 세션 탑재.
+  - **HTTP/3 & WebTransport 지원**: lsquic 라이브러리를 바인딩하여 QUIC 및 양방향/단방향 스트림을 다루는 고성능 서버 사이드 WebTransport 세션 탑재(Webtransport: dev 브랜치).
   - **Post-Quantum TLS**: `cwist_app_use_pqc_layer(app, true)`를 호출해 하이브리드 X25519MLKEM768을 강제하고 레거시 TLS를 배제하는 간결한 보안 설정 지원.
   - **Zero-copy Reactor**: io_uring / epoll / kqueue 기반의 C100K 리액터 및 lock-free 큐 구성.
 - **사용법**:

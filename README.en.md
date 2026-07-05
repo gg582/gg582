@@ -43,7 +43,7 @@ I am an open-source maintainer and contributor focusing on Linux system programm
 **Pure C Web Development Suite (Flask alternative for C)**
 - **Introduction**: An intuitive, lightweight web development suite for pure C, aiming to be a "Flask for C". It provides multi-protocol support securely and manageably based on BoringSSL, OpenSSL, lsquic, etc.
 - **Key Technologies**:
-  - **HTTP/3 & WebTransport Support**: Binds the lsquic library to implement a high-performance server-side WebTransport session handling QUIC and bidirectional/unidirectional streams.
+  - **HTTP/3 & WebTransport Support**: Binds the lsquic library to implement a high-performance server-side WebTransport session handling QUIC and bidirectional/unidirectional streams(WebTransport at dev branch).
   - **Post-Quantum TLS**: Supports clean security configurations that force hybrid X25519MLKEM768 and exclude legacy TLS by calling `cwist_app_use_pqc_layer(app, true)`.
   - **Zero-copy Reactor**: Configures C100K reactor and lock-free queues based on io_uring / epoll / kqueue.
 - **Usage**:
