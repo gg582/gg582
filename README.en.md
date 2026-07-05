@@ -9,8 +9,8 @@ I am an open-source maintainer and contributor focusing on Linux system programm
 ### [Cubrid](https://github.com/CUBRID) (Member)
 - Participate in the enterprise-grade open-source RDBMS ecosystem, analyzing open-source database technologies and multi-client integration environments.
 
-### [Gosuda](https://github.com/gosuda) (Member / Co-maintainer)
-- Co-maintain and release lightweight terminal infrastructure, cryptography, and high-performance network relays.
+### [Gosuda](https://github.com/gosuda) (Member)
+- Co-maintain and release lightweight terminal infrastructure and high-performance network relays.
 
 ---
 
