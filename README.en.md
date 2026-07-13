@@ -102,7 +102,7 @@ I am an open-source maintainer and contributor focusing on Linux system programm
   - **ncursesw Modernization**: Improves unicode (UTF-8) support and multiple view management tailored for modern terminal environments.
   - **Enhanced Security**: Introduces safety measures for running shell commands within the editor via configuration variables `$confirmshell` and `$makebackup`.
 
-### 🔌 [Gozik](https://github.com/gosuda/gozik) (Gosuda)
+### 🔌 [Gozik](https://github.com/gosuda/gozik) (Gosuda, Maintainer)
 **FFMPEG-Based Minimalist GTK Audio / CD Player**
 - **Introduction**: A minimalist audio playback daemon and client that supports playing local music files as well as audio streams via streaming plugins.
 - **Key Technologies**:
