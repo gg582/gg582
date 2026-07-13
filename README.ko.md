@@ -102,7 +102,7 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
   - **ncursesw 현대화**: 유니코드(UTF-8) 지원 및 현대식 터미널 환경에 맞는 다중 뷰 관리 개선.
   - **보안 기능 강화**: 설정 변수 `$confirmshell` 및 `$makebackup` 도입을 통한 에디터 내 쉘 명령어 실행 안전 장치 제공.
 
-### 🔌 [Gozik](https://github.com/gosuda/gozik) (Gosuda)
+### 🔌 [Gozik](https://github.com/gosuda/gozik) (Gosuda, Maintainer)
 **FFMPEG-Based Minimalist GTK Audio / CD Player**
 - **소개**: 로컬 음악 파일 재생부터 스트리밍 플러그인을 통한 음원 재생까지 지원하는 미니멀리스트 오디오 재생 데몬 및 클라이언트.
 - **핵심 기술**:
