@@ -1,12 +1,12 @@
 # Open Source Developer - @gg582
 
-I am an open-source maintainer and contributor focusing on Linux system programming, high-performance network tunneling, Text User Interface (TUI), and minimalist tool development. I am active as a member of the **Cubrid** and **Gosuda** open-source communities.
+I am an open-source maintainer and contributor focusing on Linux system programming, high-performance network tunneling, Text User Interface (TUI), and minimalist tool development. I am active as a contributor to the **Cubrid** community and a member of the **Gosuda** open-source community.
 
 ---
 
 ## 🏛️ Organizations & Commits
 
-### [Cubrid](https://github.com/CUBRID) (Member)
+### [Cubrid](https://github.com/CUBRID) (Contributor)
 - Participate in the enterprise-grade open-source RDBMS ecosystem, analyzing open-source database technologies and multi-client integration environments.
 
 ### [Gosuda](https://github.com/gosuda) (Member)
@@ -15,29 +15,6 @@ I am an open-source maintainer and contributor focusing on Linux system programm
 ---
 
 ## 🛠️ Main Open Source Projects
-
-### 📡 [Portal](https://github.com/gosuda/portal-tunnel) (Gosuda-Tunnel)
-**Self-Hostable Relay Tunnel for Localhost**
-- **Introduction**: A trustless, high-performance relay tunnel engine that exposes localhost services to the public (e.g., agent web) without port forwarding or configuring firewall rules.
-- **Key Technologies**:
-  - **E2E Tenant TLS & ECH**: Terminates TLS directly at the user endpoint so the relay server cannot decrypt the raw data, and applies ECH (Encrypted Client Hello) to prevent SNI exposure.
-  - **MITM Detection**: Includes a self-verifying probe that compares TLS keying material (Exporter) on both ends to defeat man-in-the-middle attacks and relay-side decryption attempts.
-  - **Multi-Hop Relay**: Implements an anonymous routing structure that chains three or more relay nodes to hide sender and receiver information per node.
-  - **x402 Sui USDC Payment**: Provides a gateway that can require USDC payment via the Sui blockchain when making API calls.
-- **Usage**:
-  ```bash
-  # 1. Install (macOS / Linux)
-  curl -fsSL https://github.com/gosuda/portal-tunnel/releases/latest/download/install.sh | bash
-  
-  # 2. Expose local port to the public (provides a random public domain by default)
-  portal expose 3000
-  
-  # 3. Expose via a custom relay server
-  portal expose 3000 --name myapp --relays https://portal.example.com --discovery=false
-  
-  # 4. Enable multi-hop (anonymous routing)
-  portal expose 3000 --multi-hop-depth 3
-  ```
 
 ### 🌐 [CWIST](https://github.com/religiya-serdtsa/cwist) (Maintainer)
 **Pure C Web Development Suite (Flask alternative for C)**
@@ -73,6 +50,46 @@ I am an open-source maintainer and contributor focusing on Linux system programm
   - **Generational Arena**: An arena system that overcomes heap fragmentation and cleans up large allocation blocks at once using Generation boundaries.
   - **Epoch Reclamation (EBR)**: A thread-safe, lock-free memory reclamation layer without global pauses.
   - **Concurrency Model**: Implements task thread pools and async primitives like Future / Promise.
+- **Usage**:
+  ```c
+  #include <libttak/arena.h>
+  #include <libttak/concurrency.h>
+
+  int main(void) {
+      // Initialize Generational Arena
+      ttak_arena *arena = ttak_arena_create(1024 * 1024); // 1MB
+      char *data = ttak_arena_alloc(arena, 512);
+
+      // Perform thread-safe epoch-based memory reclamation
+      ttak_epoch_enter();
+      ttak_arena_destroy(arena);
+      ttak_epoch_exit();
+      return 0;
+  }
+  ```
+
+### 📡 [Portal](https://github.com/gosuda/portal-tunnel) (Gosuda-Tunnel)
+**Self-Hostable Relay Tunnel for Localhost**
+- **Introduction**: A trustless, high-performance relay tunnel engine that exposes localhost services to the public (e.g., agent web) without port forwarding or configuring firewall rules.
+- **Key Technologies**:
+  - **E2E Tenant TLS & ECH**: Terminates TLS directly at the user endpoint so the relay server cannot decrypt the raw data, and applies ECH (Encrypted Client Hello) to prevent SNI exposure.
+  - **MITM Detection**: Includes a self-verifying probe that compares TLS keying material (Exporter) on both ends to defeat man-in-the-middle attacks and relay-side decryption attempts.
+  - **Multi-Hop Relay**: Implements an anonymous routing structure that chains three or more relay nodes to hide sender and receiver information per node.
+  - **x402 Sui USDC Payment**: Provides a gateway that can require USDC payment via the Sui blockchain when making API calls.
+- **Usage**:
+  ```bash
+  # 1. Install (macOS / Linux)
+  curl -fsSL https://github.com/gosuda/portal-tunnel/releases/latest/download/install.sh | bash
+  
+  # 2. Expose local port to the public (provides a random public domain by default)
+  portal expose 3000
+  
+  # 3. Expose via a custom relay server
+  portal expose 3000 --name myapp --relays https://portal.example.com --discovery=false
+  
+  # 4. Enable multi-hop (anonymous routing)
+  portal expose 3000 --multi-hop-depth 3
+  ```
 
 ### 💬 [SSH-Chatter](https://github.com/gosuda/ssh-chatter) (Gosuda, Maintainer)
 **Modern C-Based SSH Chat Server & BBS Terminal**
@@ -101,6 +118,16 @@ I am an open-source maintainer and contributor focusing on Linux system programm
   - **Legacy C Refactoring**: Modularizes and restructures the spaghetti-like legacy codebase (God Architecture).
   - **ncursesw Modernization**: Improves unicode (UTF-8) support and multiple view management tailored for modern terminal environments.
   - **Enhanced Security**: Introduces safety measures for running shell commands within the editor via configuration variables `$confirmshell` and `$makebackup`.
+- **Usage**:
+  ```bash
+  # 1. Build and run text editor
+  make
+  ./nanox sample.txt
+
+  # 2. Apply safety configurations (~/.nanoxrc)
+  # set confirmshell 1  # Add confirmation step before running shell commands in editor
+  # set makebackup 1    # Automatically create backup copies on save
+  ```
 
 ### 🔌 [Gozik](https://github.com/gosuda/gozik) (Gosuda, Maintainer)
 **FFMPEG-Based Minimalist GTK Audio / CD Player**
@@ -108,6 +135,17 @@ I am an open-source maintainer and contributor focusing on Linux system programm
 - **Key Technologies**:
   - **gRPC Architecture**: Isolates the lightweight Go backend daemon responsible for playback from the UI layer.
   - **Streaming Extensibility**: Supports extension plugins (such as `gozik-yt-music`) to fetch external sources like YouTube Music.
+- **Usage**:
+  ```bash
+  # 1. Start Gozik daemon (gRPC backend)
+  gozikd --port 50051
+
+  # 2. Play local music file via client
+  gozik-cli play /path/to/song.mp3
+
+  # 3. Stream external audio sources via streaming plugin
+  gozik-cli play --plugin yt-music "https://music.youtube.com/watch?v=..."
+  ```
 
 ---
 

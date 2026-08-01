@@ -1,12 +1,12 @@
 # Open Source Developer - @gg582
 
-Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User Interface) 및 미니멀 도구 개발에 집중하고 있는 오픈소스 메인테이너 및 기여자입니다. **Cubrid** 및 **Gosuda** 오픈소스 커뮤니티의 일원으로 활동하고 있습니다.
+Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User Interface) 및 미니멀 도구 개발에 집중하고 있는 오픈소스 메인테이너 및 기여자입니다. **Cubrid** 오픈소스 커뮤니티의 Contributor 및 **Gosuda** 오픈소스 커뮤니티의 Member로 활동하고 있습니다.
 
 ---
 
 ## 🏛️ Organizations & Commits
 
-### [Cubrid](https://github.com/CUBRID) (Member)
+### [Cubrid](https://github.com/CUBRID) (Contributor)
 - 엔터프라이즈급 오픈소스 RDBMS 생태계에 참여하며 오픈소스 데이터베이스 기술과 다중 클라이언트 결합 환경 분석.
 
 ### [Gosuda](https://github.com/gosuda) (Member)
@@ -16,32 +16,9 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
 
 ## 🛠️ Main Open Source Projects
 
-### 📡 [Portal](https://github.com/gosuda/portal-tunnel) (Gosuda-Tunnel)
-**Self-Hostable Relay Tunnel for Localhost**
-- **소개**: 포트 포워딩, 방화벽 규칙 설정 없이 로컬 호스트 서비스를 외부(에이전트 웹 등)에 노출시켜주는 신뢰가 필요 없는(Trustless) 고성능 중계 터널 엔진.
-- **핵심 기술**:
-  - **E2E Tenant TLS & ECH**: 중계 서버가 원시 데이터를 복호화할 수 없도록 사용자 엔드포인트에서 직접 TLS를 종단하며, ECH(Encrypted Client Hello)를 적용해 SNI 노출 방지.
-  - **MITM 감지**: TLS keying material(Exporter)을 양단에서 비교하여 중간자 공격 및 중계기 측 복호화 시도를 무력화하는 자가 검증 프로브 내장.
-  - **Multi-Hop Relay**: 3개 이상의 릴레이 노드를 체이닝하여 노드당 송수신자 정보를 은닉하는 익명 라우팅 구조 구현.
-  - **x402 Sui USDC Payment**: API 호출 시 Sui 블록체인을 통한 USDC 결제를 요구할 수 있는 게이트웨이 제공.
-- **사용법**:
-  ```bash
-  # 1. 설치 (macOS / Linux)
-  curl -fsSL https://github.com/gosuda/portal-tunnel/releases/latest/download/install.sh | bash
-  
-  # 2. 로컬 포트 외부 공개 (기본 임의 public 도메인 제공)
-  portal expose 3000
-  
-  # 3. 커스텀 릴레이 서버 지정 노출
-  portal expose 3000 --name myapp --relays https://portal.example.com --discovery=false
-  
-  # 4. 멀티홉(익명 라우팅) 활성화
-  portal expose 3000 --multi-hop-depth 3
-  ```
-
 ### 🌐 [CWIST](https://github.com/religiya-serdtsa/cwist) (Maintainer)
 **Pure C Web Development Suite (Flask alternative for C)**
-- **소개**: "C언어용 Flask"를 목표로 구축된 직관적이고 가벼운 C 전용 웹 개발 스위트. BoringSSL, OpenSSL, lsquic 등을 기반으로 다중 프로토콜을 안전하고 제어 가능하게 제공합니다.
+- **소개**: C언어용 Flask를 목표로 구축된 직관적이고 가벼운 C 전용 웹 개발 스위트. BoringSSL, OpenSSL, lsquic 등을 기반으로 다중 프로토콜을 안전하고 제어 가능하게 제공합니다.
 - **핵심 기술**:
   - **HTTP/3 & WebTransport 지원**: lsquic 라이브러리를 바인딩하여 QUIC 및 양방향/단방향 스트림을 다루는 고성능 서버 사이드 WebTransport 세션 탑재(Webtransport: dev 브랜치).
   - **Post-Quantum TLS**: `cwist_app_use_pqc_layer(app, true)`를 호출해 하이브리드 X25519MLKEM768을 강제하고 레거시 TLS를 배제하는 간결한 보안 설정 지원.
@@ -73,6 +50,46 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
   - **Generational Arena**: 힙 파편화를 극복하고 대규모 할당 단위를 생명주기(Generation) 경계로 일시에 정리하는 아레나 시스템.
   - **Epoch Reclamation (EBR)**: global pause가 발생하지 않는 스레드 안전 비차단(lock-free) 메모리 회수 레이어.
   - **동시성 모델**: 태스크 스레드 풀 및 Future / Promise 비동기 프리미티브 구현.
+- **사용법**:
+  ```c
+  #include <libttak/arena.h>
+  #include <libttak/concurrency.h>
+
+  int main(void) {
+      // Generational Arena 생성
+      ttak_arena *arena = ttak_arena_create(1024 * 1024); // 1MB
+      char *data = ttak_arena_alloc(arena, 512);
+
+      // 스레드 안전하게 에포크 기반 메모리 회수 수행
+      ttak_epoch_enter();
+      ttak_arena_destroy(arena);
+      ttak_epoch_exit();
+      return 0;
+  }
+  ```
+
+### 📡 [Portal](https://github.com/gosuda/portal-tunnel) (Gosuda-Tunnel)
+**Self-Hostable Relay Tunnel for Localhost**
+- **소개**: 포트 포워딩, 방화벽 규칙 설정 없이 로컬 호스트 서비스를 외부(에이전트 웹 등)에 노출시켜주는 신뢰가 필요 없는(Trustless) 고성능 중계 터널 엔진.
+- **핵심 기술**:
+  - **E2E Tenant TLS & ECH**: 중계 서버가 원시 데이터를 복호화할 수 없도록 사용자 엔드포인트에서 직접 TLS를 종단하며, ECH(Encrypted Client Hello)를 적용해 SNI 노출 방지.
+  - **MITM 감지**: TLS keying material(Exporter)을 양단에서 비교하여 중간자 공격 및 중계기 측 복호화 시도를 무력화하는 자가 검증 프로브 내장.
+  - **Multi-Hop Relay**: 3개 이상의 릴레이 노드를 체이닝하여 노드당 송수신자 정보를 은닉하는 익명 라우팅 구조 구현.
+  - **x402 Sui USDC Payment**: API 호출 시 Sui 블록체인을 통한 USDC 결제를 요구할 수 있는 게이트웨이 제공.
+- **사용법**:
+  ```bash
+  # 1. 설치 (macOS / Linux)
+  curl -fsSL https://github.com/gosuda/portal-tunnel/releases/latest/download/install.sh | bash
+  
+  # 2. 로컬 포트 외부 공개 (기본 임의 public 도메인 제공)
+  portal expose 3000
+  
+  # 3. 커스텀 릴레이 서버 지정 노출
+  portal expose 3000 --name myapp --relays https://portal.example.com --discovery=false
+  
+  # 4. 멀티홉(익명 라우팅) 활성화
+  portal expose 3000 --multi-hop-depth 3
+  ```
 
 ### 💬 [SSH-Chatter](https://github.com/gosuda/ssh-chatter) (Gosuda, Maintainer)
 **Modern C-Based SSH Chat Server & BBS Terminal**
@@ -101,6 +118,16 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
   - **Legacy C Refactoring**: 스파게티 형태의 레거시 구조(God Architecture)를 모듈화 및 재구성.
   - **ncursesw 현대화**: 유니코드(UTF-8) 지원 및 현대식 터미널 환경에 맞는 다중 뷰 관리 개선.
   - **보안 기능 강화**: 설정 변수 `$confirmshell` 및 `$makebackup` 도입을 통한 에디터 내 쉘 명령어 실행 안전 장치 제공.
+- **사용법**:
+  ```bash
+  # 1. 빌드 및 텍스트 파일 편집 실행
+  make
+  ./nanox sample.txt
+
+  # 2. 안전 설정 적용 (~/.nanoxrc)
+  # set confirmshell 1  # 에디터 내 쉘 실행 전 확인 단계 추가
+  # set makebackup 1    # 파일 저장 시 자동 백업 복사본 생성
+  ```
 
 ### 🔌 [Gozik](https://github.com/gosuda/gozik) (Gosuda, Maintainer)
 **FFMPEG-Based Minimalist GTK Audio / CD Player**
@@ -108,6 +135,17 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
 - **핵심 기술**:
   - **gRPC 아키텍처**: 재생을 담당하는 경량 Go 백엔드 데몬과 UI 레이어를 격리.
   - **스트리밍 확장성**: YouTube Music 등 외부 소스를 가져오는 확장 플러그인(gozik-yt-music) 지원.
+- **사용법**:
+  ```bash
+  # 1. gRPC 백엔드 재생 데몬 실행
+  gozikd --port 50051
+
+  # 2. 클라이언트를 통한 음악 파일 재생
+  gozik-cli play /path/to/song.mp3
+
+  # 3. 스트리밍 플러그인을 활용한 외부 음원 재생
+  gozik-cli play --plugin yt-music "https://music.youtube.com/watch?v=..."
+  ```
 
 ---
 
