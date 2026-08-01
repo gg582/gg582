@@ -6,7 +6,10 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
 
 ## 🏛️ Organizations & Commits
 
-### [Cubrid](https://github.com/CUBRID) (Contributor)
+### [Highlight.js](https://github.com/highlightjs/highlight.js) (Contributor)
+- FreeDesktop `.service` 파일 포맷 구문 강조 규칙 기여 ([PR 4299](https://github.com/highlightjs/highlight.js/pull/4299))
+
+### [Cubrid](https://github.com/CUBRID) (Member)
 - 엔터프라이즈급 오픈소스 RDBMS 생태계에 참여하며 오픈소스 데이터베이스 기술과 다중 클라이언트 결합 환경 분석.
 
 ### [Gosuda](https://github.com/gosuda) (Member)

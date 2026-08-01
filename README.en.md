@@ -6,8 +6,11 @@ I am an open-source maintainer and contributor focusing on Linux system programm
 
 ## 🏛️ Organizations & Commits
 
-### [Cubrid](https://github.com/CUBRID) (Contributor)
-- Participate in the enterprise-grade open-source RDBMS ecosystem, analyzing open-source database technologies and multi-client integration environments.
+### [Highlight.js](https://github.com/highlightjs/highlight.js) (Contributor)
+- Added syntax highlighting support for the FreeDesktop `.service` file format.
+
+### [Cubrid](https://github.com/CUBRID) (Member)
+- Participating in the enterprise-grade open-source RDBMS ecosystem, with a focus on database internals and multi-client integration.
 
 ### [Gosuda](https://github.com/gosuda) (Member)
 - Co-maintain and release lightweight terminal infrastructure and high-performance network relays.
