@@ -7,7 +7,7 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
 ## 🏛️ Organizations & Commits
 
 ### [Highlight.js](https://github.com/highlightjs/highlight.js) (Contributor)
-- FreeDesktop `.service` 파일 포맷 구문 강조 규칙 기여 ([PR 4299](https://github.com/highlightjs/highlight.js/pull/4299))
+- FreeDesktop `.service` 파일 포맷에 대한 구문 강조 지원 추가.
 
 ### [Cubrid](https://github.com/CUBRID) (Member)
 - 엔터프라이즈급 오픈소스 RDBMS 생태계에 참여하며 오픈소스 데이터베이스 기술과 다중 클라이언트 결합 환경 분석.
@@ -53,23 +53,6 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
   - **Generational Arena**: 힙 파편화를 극복하고 대규모 할당 단위를 생명주기(Generation) 경계로 일시에 정리하는 아레나 시스템.
   - **Epoch Reclamation (EBR)**: global pause가 발생하지 않는 스레드 안전 비차단(lock-free) 메모리 회수 레이어.
   - **동시성 모델**: 태스크 스레드 풀 및 Future / Promise 비동기 프리미티브 구현.
-- **사용법**:
-  ```c
-  #include <libttak/arena.h>
-  #include <libttak/concurrency.h>
-
-  int main(void) {
-      // Generational Arena 생성
-      ttak_arena *arena = ttak_arena_create(1024 * 1024); // 1MB
-      char *data = ttak_arena_alloc(arena, 512);
-
-      // 스레드 안전하게 에포크 기반 메모리 회수 수행
-      ttak_epoch_enter();
-      ttak_arena_destroy(arena);
-      ttak_epoch_exit();
-      return 0;
-  }
-  ```
 
 ### 📡 [Portal](https://github.com/gosuda/portal-tunnel) (Gosuda-Tunnel)
 **Self-Hostable Relay Tunnel for Localhost**
@@ -126,10 +109,6 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
   # 1. 빌드 및 텍스트 파일 편집 실행
   make
   ./nanox sample.txt
-
-  # 2. 안전 설정 적용 (~/.nanoxrc)
-  # set confirmshell 1  # 에디터 내 쉘 실행 전 확인 단계 추가
-  # set makebackup 1    # 파일 저장 시 자동 백업 복사본 생성
   ```
 
 ### 🔌 [Gozik](https://github.com/gosuda/gozik) (Gosuda, Maintainer)
@@ -138,20 +117,11 @@ Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User
 - **핵심 기술**:
   - **gRPC 아키텍처**: 재생을 담당하는 경량 Go 백엔드 데몬과 UI 레이어를 격리.
   - **스트리밍 확장성**: YouTube Music 등 외부 소스를 가져오는 확장 플러그인(gozik-yt-music) 지원.
-- **사용법**:
-  ```bash
-  # 1. gRPC 백엔드 재생 데몬 실행
-  gozikd --port 50051
-
-  # 2. 클라이언트를 통한 음악 파일 재생
-  gozik-cli play /path/to/song.mp3
-
-  # 3. 스트리밍 플러그인을 활용한 외부 음원 재생
-  gozik-cli play --plugin yt-music "https://music.youtube.com/watch?v=..."
-  ```
 
 ---
 
 ## 📬 Contact
 - **Email**: gg582@proton.me
 - **GitHub**: [@gg582](https://github.com/gg582)
+
+![Lines](https://raw.githubusercontent.com/gg582/AllCloc/refs/heads/main/public/banner.svg)
