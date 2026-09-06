@@ -53,23 +53,7 @@ I am an open-source maintainer and contributor focusing on Linux system programm
   - **Generational Arena**: An arena system that overcomes heap fragmentation and cleans up large allocation blocks at once using Generation boundaries.
   - **Epoch Reclamation (EBR)**: A thread-safe, lock-free memory reclamation layer without global pauses.
   - **Concurrency Model**: Implements task thread pools and async primitives like Future / Promise.
-- **Usage**:
-  ```c
-  #include <libttak/arena.h>
-  #include <libttak/concurrency.h>
 
-  int main(void) {
-      // Initialize Generational Arena
-      ttak_arena *arena = ttak_arena_create(1024 * 1024); // 1MB
-      char *data = ttak_arena_alloc(arena, 512);
-
-      // Perform thread-safe epoch-based memory reclamation
-      ttak_epoch_enter();
-      ttak_arena_destroy(arena);
-      ttak_epoch_exit();
-      return 0;
-  }
-  ```
 
 ### 📡 [Portal](https://github.com/gosuda/portal-tunnel) (Gosuda-Tunnel)
 **Self-Hostable Relay Tunnel for Localhost**
@@ -126,10 +110,6 @@ I am an open-source maintainer and contributor focusing on Linux system programm
   # 1. Build and run text editor
   make
   ./nanox sample.txt
-
-  # 2. Apply safety configurations (~/.nanoxrc)
-  # set confirmshell 1  # Add confirmation step before running shell commands in editor
-  # set makebackup 1    # Automatically create backup copies on save
   ```
 
 ### 🔌 [Gozik](https://github.com/gosuda/gozik) (Gosuda, Maintainer)
@@ -138,20 +118,11 @@ I am an open-source maintainer and contributor focusing on Linux system programm
 - **Key Technologies**:
   - **gRPC Architecture**: Isolates the lightweight Go backend daemon responsible for playback from the UI layer.
   - **Streaming Extensibility**: Supports extension plugins (such as `gozik-yt-music`) to fetch external sources like YouTube Music.
-- **Usage**:
-  ```bash
-  # 1. Start Gozik daemon (gRPC backend)
-  gozikd --port 50051
-
-  # 2. Play local music file via client
-  gozik-cli play /path/to/song.mp3
-
-  # 3. Stream external audio sources via streaming plugin
-  gozik-cli play --plugin yt-music "https://music.youtube.com/watch?v=..."
-  ```
 
 ---
 
 ## 📬 Contact
 - **Email**: gg582@proton.me
 - **GitHub**: [@gg582](https://github.com/gg582)
+
+![Lines](https://raw.githubusercontent.com/gg582/AllCloc/refs/heads/main/public/banner.svg)
