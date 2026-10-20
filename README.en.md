@@ -1,5 +1,7 @@
 # Open Source Developer - @gg582
 
+[Korean](./README.ko.md)
+
 I am an open-source maintainer and contributor focusing on Linux system programming, high-performance network tunneling, Text User Interface (TUI), and minimalist tool development. I am active as a contributor to the **Cubrid** community and a member of the **Gosuda** open-source community.
 
 ---
