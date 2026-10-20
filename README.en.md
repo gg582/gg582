@@ -126,7 +126,6 @@ I am an open-source maintainer and contributor focusing on Linux system programm
 ```c
 #include <math.h>
 #include <stdint.h>
-#include <assert.h>
 
 _Bool is_triangle(double a, double b, double c) {
     if(a+b <= c) return 0;
