@@ -1,5 +1,7 @@
 # Open Source Developer - @gg582
 
+[![gg582's github stats](https://github-readme-stats.vercel.app/api?username=gg582)](https://github.com/anuraghazra/github-readme-stats)  
+
 [Korean](./README.ko.md)
 
 I am an open-source maintainer and contributor focusing on Linux system programming, high-performance network tunneling, Text User Interface (TUI), and minimalist tool development. I am active as a contributor to the **Cubrid** community and a member of the **Gosuda** open-source community.
