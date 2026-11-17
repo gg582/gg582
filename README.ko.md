@@ -1,5 +1,12 @@
 # Open Source Developer - @gg582
 
+<a href="https://ghfind.com/u/gg582?ref=badge">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/gg582?theme=dark" />
+    <img src="https://ghfind.com/api/card/mini/gg582?theme=light" alt="GitHub Roast score card" width="440" />
+  </picture>
+</a>
+
 [![gg582's github stats](https://github-readme-stats.vercel.app/api?username=gg582)](https://github.com/anuraghazra/github-readme-stats)  
 
 Linux 시스템 프로그래밍, 고성능 네트워크 터널링, TUI(Text User Interface) 및 미니멀 도구 개발에 집중하고 있는 오픈소스 메인테이너 및 기여자입니다. **Cubrid** 오픈소스 커뮤니티의 Contributor 및 **Gosuda** 오픈소스 커뮤니티의 Member로 활동하고 있습니다.
